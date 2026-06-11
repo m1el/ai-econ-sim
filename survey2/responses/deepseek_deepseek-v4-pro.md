@@ -1,0 +1,57 @@
+# deepseek/deepseek-v4-pro
+
+Here is a calibrated economic forecast for developed economies from 2026-2046.
+
+## 1. Trajectories
+
+**Trajectory 1: The Cognitive Industrial Revolution (Probability: 35%)**
+*   **Causal Mechanism:** AI scaling laws continue, albeit with diminishing returns on raw pretraining. The real economic transformation is driven by compound inference and agentic scaffolding. AI agents become capable of executing multi-step, long-horizon tasks (e.g., managing a full clinical drug trial process, handling a complex insurance claim from end-to-end). This is not AGI, but "Cognitive Assembly Lines." White-collar productivity explodes. The bottleneck shifts from intelligence to energy and physical-site permissions.
+*   **2046 Median Person:** A 45-year-old in 2046 works as a "Therapeutic Strategy Supervisor," auditing AI-designed treatment plans for rare diseases. Their income is high, but work is hyper-specialized and demanding. The main cost burden is a "sovereign AI subscription" (access to compute/energy) and bio-security insurance. Personal domestic robots are common but leased, not owned. They feel cognitively outpaced but materially wealthy.
+
+**Trajectory 2: The Bifurcated Plateau (Probability: 30%)**
+*   **Causal Mechanism:** AI progress plateaus at the "expert" level in high-stakes, open-ended domains. It revolutionizes structured cognitive work (coding, legal doc review, radiology) but fails to achieve reliable autonomy in physical robotics or novel scientific reasoning. The economy splits: a high-growth digital sector that needs few workers, and a stagnant physical/human-services sector absorbing mass labor with suppressed wages.
+*   **2046 Median Person:** A 38-year-old in 2046 works in elder wellness coordination, a role blending physical therapy assistance and companionship. Their income is stagnant in real terms. They live in a multi-generational household. A cheap domestic robot handles cleaning, but food and rent dominate their budget. Their income is supplemented by a meager government logistics allowance, but it’s insufficient to live on alone.
+
+**Trajectory 3: The Energy/Compute Bottleneck (Probability: 20%)**
+*   **Causal Mechanism:** AI capability is not the constraint; physical infrastructure is. Exponential demand for inference compute to power real-time, multimodal AI agents crashes into energy generation and semiconductor fabrication limits. The "Jevons Paradox" of intelligence becomes hyper-inflationary. Only a thin layer of capital-intensive industries can afford frontier AI. The broad economy is starved of the cheap intelligence dividend, but still suffers the labor displacement.
+*   **2046 Median Person:** A 50-year-old former logistics manager, now in the "precariat" class. They patch together income from task-based human-oversight gigs (labeling rare edge-case data for AI training) and government energy credits. Inflation in energy and food consumes any disposable income. They cannot afford the domestic robot systems that richer households lease; they manually clean their own home.
+
+**Trajectory 4: Pro-Human Policy Shock (Probability: 10%)**
+*   **Causal Mechanism:** A severe, AI-induced financial crisis (e.g., a flash crash in labor markets causing a debt-deflation spiral) triggers an aggressive sovereign response. Major developed nations implement a "Digital Land Tax" on AI compute and redistribute the proceeds via a substantial Universal Basic Dividend. Human labor is actively protected in governance roles.
+*   **2046 Median Person:** A 30-year-old artist and community organizer. Their income is a mix of modest art sales and a robust government dividend. They live in public housing redeveloped from decommissioned office parks. They feel economically secure but constrained, with travel and luxury goods heavily taxed. The domestic robot is a standardized government-issued model.
+
+**Trajectory 5: Stalled by Fear (Probability: 5%)**
+*   **Causal Mechanism:** A catastrophic AI alignment incident (not extinction-level, but causing significant regional damage) or a series of cascading, AI-driven critical infrastructure failures triggers a severe regulatory and cultural backlash. Development of frontier models is effectively halted by international treaty, and deployment of existing models is ring-fenced.
+*   **2046 Median Person:** A 40-year-old supply chain manager for a reshored manufacturing plant. Their income is stable, slightly up from 2026. Life is more analog and localized. Domestic life is manual; the "smart home" is considered a security risk. Economic growth is slow, driven by demographics and incremental mechanical engineering, not software.
+
+## 2. Calibrated estimates
+
+- a) Median real disposable income is higher than in 2026: **65%**
+- b) Median real disposable income is more than 20% lower than in 2026: **25%**
+- c) The share of national income flowing to labor is below 40%: **70%**
+- d) More than 25% of prime-age adults who want paid work cannot find any: **15%**
+- e) Ordinary citizens' influence over government policy is substantially weaker than in 2026: **80%**
+- f) The top 1%'s share of national wealth is at least 10 percentage points higher than in 2026: **75%**
+- g) Housing, energy, and food together consume a larger share of the median household budget: **55%**
+- h) A typical household can buy a robot/AI system that performs most domestic tasks for less than 6 months of median income: **60%**
+- i) Government transfers are the largest income source for the median working-age household: **30%**
+- j) AI systems make most consequential resource-allocation decisions with little human oversight: **20%**
+
+## 3. Drivers
+
+1.  **Inference Compute Cost Deflation Rate:** The most critical parameter. If the cost of a "unit of high-quality cognitive work" falls by 10,000x or more, Trajectory 1 is locked in. If it plateaus, Trajectory 2 or 3 dominates. *Best-guess trajectory: 1,000x cost reduction per decade until 2036, then slowing.*
+2.  **Autonomous Physical Manipulation Reliability:** The gap between digital and physical AI. If fine-motor control and robust spatial reasoning in novel environments remain unsolved, the economy bifurcates (Trajectory 2). *Best-guess trajectory: Remains unreliable for novel tasks, successful only in tightly controlled environments.*
+3.  **Energy Production Elasticity:** Can the energy sector supply the projected 100GW+ of new demand for dedicated AI inference clusters without causing mass industrial displacement? Failure creates an inflationary bottleneck (Trajectory 3). *Best-guess trajectory: Permitting and grid interconnection delays cause significant friction, favoring Trajectory 3.*
+4.  **Policy Response to Mass White-Collar Displacement:** The speed and nature of fiscal response (UBI vs. job guarantees vs. protectionism) determines if the outcome is a safety-net cushion (Trajectory 4) or a pure capital-concentration shock (Trajectory 2). *Best-guess trajectory: Policy lags reality by 5-10 years, initially allowing capital concentration.*
+5.  **AI Alignment Tax:** The degree to which making a frontier model "safe" degrades its economically useful capabilities. A high alignment tax slows deployment and shifts the economy toward Trajectory 2 or 5. *Best-guess trajectory: The alignment tax will be low for narrow tasks, high for agentic, open-ended tasks.*
+6.  **Geopolitical AI Race Dynamics:** A full-scale "hot" race between the US and China with no time for safety protocols increases the probability of a catastrophic incident, triggering Trajectory 5. *Best-guess trajectory: The race remains "cold," with mutual deterrence via cyber capabilities.*
+
+## 4. The mechanism you'd bet on
+
+The single causal mechanism most predictive of the median person's economic welfare in 2046 is the **elasticity of substitution between AI cognitive output and human labor across the entire task distribution, specifically the speed at which AI transitions from a substitute for routine cognitive tasks to a substitute for non-routine, empathetic, and physical tasks.** If this transition is slow and linear, labor retains bargaining power in the growing human-services sector, and median welfare improves modestly. If the transition is fast and non-linear—a rapid general-purpose cognitive takeover—the returns to capital will skyrocket, median wages will collapse, and welfare will depend entirely on post-hoc redistribution, which I estimate will be insufficient, leading to a sharp decline in median real income despite GDP growth.
+
+## 5. Confidence and failure
+
+My central forecast (a blend of Trajectories 1 and 2) would be proven wrong by evidence of a sudden, unanticipated breakthrough in end-to-end robotic foundation models that enables reliable physical labor substitution within 2-3 years. This would shatter the Bifurcated Plateau assumption and accelerate labor share collapse beyond my estimates. Conversely, evidence of a hard, theoretically-proven limit to deep learning scaling laws that caps economic capability at the 2028 level would invalidate the Cognitive Industrial Revolution trajectory.
+
+My least confident claims are the probabilities assigned to the trajectories themselves; the interaction effects are so complex that a 35% vs. 30% distinction is a false precision. Among the specific estimates, I am least confident in (h) regarding the domestic robot. This is a bet on the pace of mechatronics and energy storage, not just AI, and a failure in battery density or actuator cost could easily make that a 10% probability. The estimate for (d), the unemployment rate, is my most contrarian claim; I believe the "job" as a container for tasks will fragment, making the binary "employed/unemployed" metric less meaningful than measures of income adequacy.

@@ -1,0 +1,16 @@
+# build output (rebuilt by CI)
+site/
+
+# local artifacts and logs
+*.log
+runs_tmp/
+gd_site.html
+
+# third-party content not redistributed here
+2501.16946.pdf
+paper.txt
+
+# personal context / third-party content
+prompt.md
+tweet.md
+__pycache__/

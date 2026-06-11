@@ -1,0 +1,55 @@
+# z-ai/glm-5.1
+
+**Assumptions on AI Pace**
+I assume AI development will be **accelerating through 2032, then steady**. The current paradigm (scaling compute and data with deep learning architectures) will continue to yield compounding capabilities, crossing the threshold for fully autonomous cognitive work in most white-collar domains by 2030. Physical robotics will lag cognitive AI by 5-7 years due to hardware and simulation constraints, but will reach commercial viability for basic manual tasks by 2035. After 2032, foundational model capabilities will plateau slightly as we hit diminishing returns on raw scale and energy constraints, but deployment and workflow integration will continue accelerating through 2046.
+
+## 1. Trajectories
+
+**Asymmetric Automation (45%)**
+*Causal mechanism:* AI drives the marginal cost of cognition to near zero, automating vast swathes of cognitive work. However, physical constraints (NIMBYism, supply chain friction, energy grid limits) prevent a corresponding drop in the cost of housing, energy, and physical services. The economy bifurcates into hyper-deflationary digital goods and hyper-inflationary physical necessities.
+*Median life in 2046:* The median person works 15-25 hours a week in a "human-touch" role (elder care, boutique hospitality, physical infrastructure maintenance) or low-level AI-oversight. Their income is a mix of part-time wages and a targeted government transfer ("automation dividend" of ~$12k/year). However, because housing and energy costs have ballooned to consume 55% of their budget, real economic security feels precarious. They live in high-density urban pods or subsidized exurban developments. They have abundant cheap digital entertainment and fast fashion, but homeownership is out of reach.
+
+**Bountiful Deflation (30%)**
+*Causal mechanism:* Accelerating AI successfully unlocks bottlenecks in the physical world. AI-driven material science drops solar/battery costs by 90%; autonomous construction and 3D printing bypass labor and regulatory costs for housing; synthetic biology drastically lowers food costs. Technology's deflationary power outpaces rent-seeking and monopolistic concentration.
+*Median life in 2046:* The median person works 10-15 hours a week, primarily by choice, in creative, social, or complex physical tasks. Their income comes from a universal baseline dividend, supplemented by gig work or passion projects. Housing, energy, and food consume less than 15% of their budget. They own a highly capable domestic robot. Economic security is extremely high; the primary anxieties are social status, meaning, and healthspan rather than material survival.
+
+**Neo-Feudal Tech Monopoly (20%)**
+*Causal mechanism:* Extreme returns to scale in AI lead to winner-take-all dynamics. A handful of mega-corps/governments control the foundational models and compute. Regulatory capture prevents open-source alternatives from competing. Labor's bargaining power collapses to zero as human cognition is fully substituted, but democratic institutions fail to implement robust redistribution, leading to capital hoarding.
+*Median life in 2046:* The median person is effectively a serf in a high-tech economy. They subsist on a meager, conditional digital ration (Universal Basic Services) provided by corporate-state hybrids. Meaningful paid work is almost impossible to find; humans are a liability compared to AI agents. They live in decaying legacy infrastructure, utilizing ad-supported free AI services. Security is nonexistent; they are entirely at the mercy of algorithmic resource allocation and corporate paternalism.
+
+**Regulatory Stall (5%)**
+*Causal mechanism:* Societal backlash, catastrophic AI failures, or geopolitical fragmentation lead to severe regulation and compute caps. AI deployment is legally restricted to "copilot" status, banning fully autonomous labor substitution. 
+*Median life in 2046:* Looks roughly like 2024, but slightly worse. The median person works 40+ hours a week, using AI as a sophisticated tool. Stagnant demographics and debt drag down real wage growth. Housing and food costs remain high. Security is moderate but declining due to macroeconomic stagnation.
+
+## 2. Calibrated estimates
+
+- a) Median real disposable income (including transfers, adjusted for cost of living) is higher than in 2026. **65%** (Deflation in goods and targeted transfers will likely outpace nominal wage stagnation, but cost-of-living for physical goods makes this less certain than pure techno-optimists think.)
+- b) Median real disposable income is more than 20% lower than in 2026. **15%** (Requires a severe monopoly capture scenario or a macroeconomic disaster where transfers fail to materialize.)
+- c) The share of national income flowing to labor is below 40% (vs ~55-60% today). **40%** (Highly plausible if cognitive labor is fully automated; labor share will plummet, though it might stabilize around 40% due to residual physical/care labor.)
+- d) More than 25% of prime-age adults who want paid work cannot find any. **25%** (Structural friction will be massive. Even if new jobs are created, the skill mismatch and the sheer speed of automation will leave a significant chunk of the workforce functionally unemployable.)
+- e) Ordinary citizens' influence over government policy is substantially weaker than in 2026. **55%** (AI enables mass manipulation of public opinion and hyper-efficient lobbying by concentrated capital; democratic feedback loops are too slow.)
+- f) The top 1%'s share of national wealth is at least 10 percentage points higher than in 2026. **35%** (Currently ~30-35% in the US. A jump to 45%+ requires massive capital accumulation in AI infrastructure without aggressive taxation, which is a real risk.)
+- g) Housing, energy, and food together consume a larger share of the median household budget than in 2026. **60%** (Unless we achieve "Bountiful Deflation," Baumol's cost disease and physical scarcity will force these necessities to absorb the majority of budgets as digital costs drop to zero.)
+- h) A typical household can buy a robot/AI system that performs most domestic and basic production tasks for less than 6 months of median household income. **75%** (Hardware scales down in cost rapidly. A $15k-$20k humanoid/domestic bot is highly likely by 2046.)
+- i) Government transfers (or equivalents like citizen dividends) are the largest income source for the median working-age household. **30%** (Requires massive political shifts. I believe governments will implement targeted transfers, but median working-age households will still rely on residual labor income or gig work as their primary source.)
+- j) AI systems or the organizations operating them make most consequential resource-allocation decisions in the economy with little effective human oversight. **45%** (Algorithmic pricing, supply chain routing, credit allocation, and financial markets will be almost entirely AI-run, but "little effective oversight" might overstate it—regulators and human CEOs will still claim oversight, even if it is functionally ceremonial.)
+
+## 3. Drivers
+
+1. **Compute/$ doubling rate (FLOPS per dollar):** Determines the cost curve of cognitive labor. If compute remains expensive, human labor retains a niche; if it plummets, cognition is commoditized. *Best-guess: Steady/Slightly accelerating* (algorithmic efficiency compensates for the end of Moore's law).
+2. **Elasticity of demand for human labor relative to AI cost:** Determines whether AI augments or substitutes workers. If elasticity is high, a 10% drop in AI cost leads to a massive drop in human employment. *Best-guess: High elasticity* (substitution will dominate over augmentation).
+3. **Residential construction cost index growth:** The ultimate physical bottleneck. If housing remains artificially scarce due to regulation, AI gains are entirely absorbed by landlords. *Best-guess: Accelerating* (NIMBYism and material costs will persist).
+4. **Energy cost per kWh (inflation-adjusted):** Determines the feasibility of physical robotics and compute expansion. *Best-guess: Declining* (solar and battery scaling will push base energy costs down).
+5. **Marginal tax rate on capital/AI compute:** The primary lever for redistribution. If AI compute is taxed to fund transfers, the Neo-Feudal scenario is averted. *Best-guess: Low to Moderate* (capital mobility and regulatory capture will keep effective taxes lower than needed for full redistribution).
+6. **Time-to-automation for median cognitive job:** The speed of disruption. If it takes 20 years, society can adapt via natural attrition; if it takes 5 years, we get systemic shock. *Best-guess: Rapid* (under 5 years for most tasks once GPT-5/6 level is reached).
+7. **Ratio of AI R&D investment to GDP:** Indicates the momentum behind the transition. *Best-guess: Accelerating* (private capital is flooding in).
+
+## 4. The mechanism you'd bet on
+
+The single most predictive causal mechanism for the median person's economic welfare in 2046 is **the relative price of cognition versus physical constraints**. If AI collapses the price of cognition to zero but physical assets (land, energy, housing) remain scarce and regulated, the labor share of income will collapse, and all productivity gains will be captured by asset holders. The median person will live in a world of infinite digital abundance but crippling physical scarcity, where their real purchasing power stagnates or falls. Only if AI successfully breaks the physical bottlenecks—driving down the cost of housing and energy as ruthlessly as it drives down the cost of software—will the median person experience true welfare gains.
+
+## 5. Confidence and failure
+
+My central forecast would be proven wrong by evidence of **robust labor demand creation in novel sectors**. Historically, general-purpose technologies create as many jobs as they destroy (e.g., the internet created the app economy). If by 2035 we see massive net job growth in areas that are currently unimaginable—particularly physical, spatial, or deeply interpersonal sectors that resist automation—then the "Asymmetric Automation" trajectory collapses, and we shift toward a more optimistic augmentation scenario. 
+
+The claim I am least confident in is **(g) Housing, energy, and food consuming a larger share of the median budget**. While I believe physical scarcity will dominate, the tail risk of "Bountiful Deflation" is real. If autonomous robotics successfully bypass building regulations via modular construction, or if AI-optimized energy grids and next-gen nuclear/solar drive electricity prices to the floor, the cost of physical necessities could plummet. I am also highly uncertain about **(i) Government transfers failing to become the primary income source**. The political pressure to implement a robust UBI or sovereign wealth dividend will be immense once white-collar unemployment spikes; my estimate assumes political friction prevents this, but a systemic crisis could force rapid institutional adaptation.
