@@ -155,4 +155,6 @@ So the watchlist compresses to five numbers, checkable once a year:
 4. **The frontier gap:** can an agent do a week of unsupervised professional work? No, year after year → A.
 5. **The loop indicator:** AI-sector capex share of GDP vs. AI-sector consumer revenue. If capex keeps compounding while revenue from actual humans doesn't, the loop is starting to feed itself → D is curing into E.
 
+Deeper dives: [the objections people raise](OBJECTIONS.md) to every comfortable mechanism here, [how the aging population interacts with each future](AGING.md), and [how violence from the populace is priced in](VIOLENCE.md).
+
 One honest caveat: all five graphs come from the same simple engine, tuned so its statistics match what 11 AI models collectively expect. That's a disciplined way to draw pictures of beliefs — it is not knowledge of the future. The probabilities are soft; the *shapes*, and the signposts that distinguish them, are the useful part.

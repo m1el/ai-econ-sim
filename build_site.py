@@ -17,6 +17,8 @@ SITE = ROOT / "site"
 PAGES = [
     "NARRATIVES.md",
     "OBJECTIONS.md",
+    "AGING.md",
+    "VIOLENCE.md",
     "REPORT.md",
     "survey2/COMPARISON.md",
     "survey/question.md",
@@ -108,6 +110,11 @@ signposts that tell you which path you're on.</p></div>
 <div class="card"><h3><a href="OBJECTIONS.html">Objections &amp; fears</a></h3>
 <p>The holes people poke in every comfortable story: the breakaway economy,
 super-persuasion, and fifteen more — what each attacks and what survives.</p></div>
+
+<div class="card"><h3>Deep dives</h3>
+<p><a href="AGING.html">The demographic undertow</a> — aging meets automation.<br>
+<a href="VIOLENCE.html">The threat point</a> — how unrest is priced into the
+scenarios.</p></div>
 
 <div class="card"><h3><a href="survey2/COMPARISON.html">The debiased survey</a></h3>
 <p>11 models, neutral instrument, calibrated probability estimates — and a

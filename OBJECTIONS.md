@@ -2,6 +2,8 @@
 
 *Companion to the [five futures](NARRATIVES.md). Every scenario there leans on some reassuring mechanism — "capital needs customers," "voters will demand a share," "physics is slow." This page collects the standard objections to those mechanisms: the two we find most load-bearing in full, then the wider catalog. For each: what comfortable claim it attacks, why it bites, and what's left of the comfort after it does.*
 
+*Two forces that cut across nearly every entry have their own pages: [the demographic undertow](AGING.md) (how aging interacts with all five futures) and [the threat point](VIOLENCE.md) (how violence from the populace is priced in).*
+
 ---
 
 ## 1. The breakaway economy
@@ -26,7 +28,11 @@
 
 **Why it's strong — and double-edged.** Social friction currently does two jobs at once. It blocks mines, transmission lines, and fabs — the friction everyone complains about. It is *also* the substrate of every political brake in the pessimistic scenarios: democratic veto points, organized resistance, the slowness that gives the 2028–2035 window its width. If higher intelligence dissolves social friction generically, both go down together: the buildout accelerates *and* the leverage erodes faster. The brakes on the bad outcomes reduce, in the limit, to physics alone. There is also an asymmetry: persuasion is bought with compute, so whoever has a hundred times the inference budget runs a hundred times the persuasion — folding this objection back into concentration.
 
-**What's left of the comfort.** Persuasion is not mind control: identity-laden and strategic opposition resists arbitrary argument quality; procedure has latency floors (court calendars, election cycles) even at perfect persuasion rates; and there's an immune response — as AI persuasion becomes notorious, generalized distrust rises and counter-persuasion AI deploys, making it partly an arms race rather than a one-way capability. These slow the dissolution; they don't prevent it.
+**What's left of the comfort.** Persuasion is not mind control: identity-laden and strategic opposition resists arbitrary argument quality, and procedure has latency floors (court calendars, election cycles) even at perfect persuasion rates. And society fights back — which deserves its own paragraph.
+
+**The immune response.** Every persuasion technology has triggered counter-adaptation: print got literacy norms and libel law, radio propaganda got broadcast regulation, advertising got disclosure rules and ad-blindness, spam got filters, phishing got hygiene training. AI persuasion should expect four antibodies. (1) *Generalized distrust:* "if it might be an AI, discount it" — already visible in the death of the answered phone call; trust retreats to verified channels: in-person, known humans, cryptographic identity. (2) *Counter-AI:* your own agent reads everything first, flags manipulation, negotiates with their agent — persuasion becomes an arms race rather than a one-way capability, and defense is roughly symmetric *if* access to competent agents is symmetric (the strongest practical argument for cheap open models as public-health infrastructure). (3) *Law:* disclosure mandates, bans on personalized political microtargeting, a right to a human interlocutor. (4) *Culture:* never decide inside the conversation; sleep on it; verify out-of-band — phishing hygiene generalized to everything.
+
+Two honest limits. First, the immune response has an **autoimmune cost**: generalized distrust is just epistemic collapse (objection 11) wearing a defensive uniform. The antibody that protects you from synthetic persuasion also makes you believe less of everything, including true things — and paralysis favors incumbents, so an overactive immune system does scenario D's work for it. Second, immunity is strong against *adversarial* persuasion but weak against the two quiet channels: ambient preference-shaping by systems you trust because they're genuinely helpful 99% of the time (objection 12), and deal-finding — there is no antibody against an offer that actually makes you better off. These slow the dissolution of social friction; they don't prevent it.
 
 **Watch:** measured persuasion effect sizes in the wild (not the lab); lobbying outcomes per dollar for AI-sector actors; election results decoupling from polled policy preferences; the first major infrastructure project visibly un-stuck by AI-led stakeholder negotiation.
 
@@ -34,7 +40,7 @@
 
 ## The wider catalog
 
-The rest of the standard objection space, compressed. Grouped by what they attack.
+The rest of the standard objection space, compressed. Grouped by what they attack. (Aging interacts with most of the economic and political entries — see [the demographic undertow](AGING.md).)
 
 ### Economic
 
@@ -52,9 +58,9 @@ The rest of the standard objection space, compressed. Grouped by what they attac
 
 ### Political
 
-**9. Cheap repression.** *Attacks: "if it gets bad enough, people will revolt."* Historically, repression was labor-intensive: a police state needed hundreds of thousands of loyal humans who could defect, refuse orders, or join the crowd. Surveillance plus autonomous enforcement removes the manpower constraint — and the defection risk — from tyranny. The deep fear isn't that a dictatorship arises; it's that for the first time it could be *stable*, with no Praetorian Guard to bribe and no conscript who won't shoot. Revolution stops being the error-correction mechanism of last resort.
+**9. Cheap repression.** *Attacks: "if it gets bad enough, people will revolt."* Historically, repression was labor-intensive: a police state needed hundreds of thousands of loyal humans who could defect, refuse orders, or join the crowd. Surveillance plus autonomous enforcement removes the manpower constraint — and the defection risk — from tyranny. The deep fear isn't that a dictatorship arises; it's that for the first time it could be *stable*, with no Praetorian Guard to bribe and no conscript who won't shoot. Revolution stops being the error-correction mechanism of last resort. The full bargaining analysis — which channels of leverage depreciate, which strengthen, and how each scenario prices the threat — is in [The threat point](VIOLENCE.md).
 
-**10. The military decoupling.** *Attacks: "states must keep citizens strong and loyal."* Mass armies were a major reason states educated, fed, and enfranchised their populations — you can't field conscripts you starved. Autonomous weapons sever military power from population health and consent, the same way AI-profit taxation severs fiscal interest from wages (the Gradual Disempowerment mechanism, applied to force instead of money). A state that needs neither your taxes nor your service needs a *reason* to care what you think.
+**10. The military decoupling.** *Attacks: "states must keep citizens strong and loyal."* Mass armies were a major reason states educated, fed, and enfranchised their populations — you can't field conscripts you starved. Autonomous weapons sever military power from population health and consent, the same way AI-profit taxation severs fiscal interest from wages (the Gradual Disempowerment mechanism, applied to force instead of money). A state that needs neither your taxes nor your service needs a *reason* to care what you think. (See [The threat point](VIOLENCE.md) for how this folds into the wider leverage question.)
 
 ### Epistemic and cultural
 
