@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Four futures: what might happen, and how you'd know which one you're in</title>
+<title>Five futures: what might happen, and how you'd know which one you're in</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,8 +15,8 @@
 <a href="https://github.com/m1el/ai-econ-sim">Source</a>
 </div></nav>
 <main>
-<h1 id="four-futures-what-might-happen-and-how-youd-know-which-one-youre-in">Four futures: what might happen, and how you'd know which one you're in</h1>
-<p><em>Built from the debiased 11-model survey (<code>survey2/</code>) and the calibrated simulator (<code>model/simulate_v2.py</code>). Each narrative is one of the scenario archetypes the surveyed models generated on their own; the probabilities are roughly where the panel put them. Graphs: <code>model/narrative_*.png</code>, regenerate with <code>uv run model/narratives.py</code>.</em></p>
+<h1 id="five-futures-what-might-happen-and-how-youd-know-which-one-youre-in">Five futures: what might happen, and how you'd know which one you're in</h1>
+<p><em>Built from the debiased 11-model survey (<code>survey2/</code>) and the calibrated simulator (<code>model/simulate_v2.py</code>). Each narrative is one of the scenario archetypes the surveyed models generated on their own; the probabilities are roughly where the panel put them. Graphs: <code>model/narrative_*.png</code>, regenerate with <code>uv run model/narratives.py</code> (A–D) and <code>uv run model/runaway.py</code> (E).</em></p>
 <p><strong>Two terms, once, so the graphs make sense.</strong> <em>Labor share</em> = the fraction of all income in the economy that gets paid out as wages (it's been ~55–60% for a century — that stability is why working for a living has worked). <em>Transfers</em> = money the government sends you that you didn't earn from a job: benefits, tax credits, or a future "AI dividend."</p>
 <p><strong>How to read every figure:</strong> panel 1 compares the whole economy (gray) with the median person's income (blue) and their <em>welfare</em> — income divided by cost of living (green). The interesting thing is always the <em>gap</em> between gray and green. Panel 2 shows what the median household lives on. Panels 3 and 4 show the two slow variables that decide everything: how much of the economy still pays wages, and whether ordinary people retain the political muscle to claim a share once wages stop being the mechanism.</p>
 <hr />
@@ -76,16 +76,93 @@
 </ul>
 <p><strong>What would kill this story:</strong> one demonstration of an AI system reliably running a week-long professional workflow end-to-end, or a general-purpose robot under ~$30k. Either restarts the clock on A/B/C.</p>
 <hr />
-<h2 id="how-to-use-these-four-pictures">How to use these four pictures</h2>
-<p>The four futures <em>diverge from a common trunk</em>. Through ~2030, A, B, and C look almost identical from inside: growth up, labor share drifting down, transfers debated. The fork that matters is <strong>panel 4</strong> — whether durable, universal claims on AI income get locked in while ordinary people still have leverage. That's decided roughly 2028–2035, which is why it's also the highest-leverage period for both your personal hedging (convert income to assets while your wage is strong) and any political effort.</p>
+<h2 id="e-the-runaway-loop-automation-serving-itself-5-by-2046-but-read-the-fine-print">E. The runaway loop — automation serving itself (~5% by 2046, but read the fine print)</h2>
+<p><img alt="E" src="model/narrative_E_runaway.png" /></p>
+<p><strong>The story.</strong> Every scenario above quietly assumes the AI economy stays an
+<em>instrument</em> — something that produces for someone. This one asks: what if the
+loop closes? Three things have to happen, and none requires anyone to choose
+them. <em>Financial closure:</em> the AI sector funds its own expansion from its own
+revenue (partially here already — a meaningful slice of current GDP growth is
+AI firms buying datacenters from AI-adjacent firms). <em>Physical closure:</em>
+machines making machines — lights-out fabs, automated mines, robots building
+power plants and more robots. <em>Decisional closure:</em> allocation run by AI with
+ceremonial human sign-off (the panel gave "nominal oversight" versions of this
+up to 70%). Once all three close, the economy contains an autocatalytic loop:
+output reinvested into capacity with a return above one and shrinking human
+involvement per cycle. Competition assembles it without a villain — the firm
+that lets its AI reinvest and self-direct compounds faster than the one that
+pauses for review, and ownership drifts to entities (index funds, treasuries,
+AI-managed portfolios) that never consume, only compound.</p>
+<p><strong>Nobody is attacked. People are outbid.</strong> That's the mechanism to internalize
+from the graph: the loop wants the same energy, land, and matter humans live
+on, and it can always pay more. Panel 1 (note the log scale): total output
+goes vertical while the human-relevant slice flatlines and median welfare
+sinks onto a floor that resource prices are simultaneously dissolving — the
+parallel "humans trade with each other" economy dies not from prohibition but
+from its input bill. Panel 2 is the heart of it: the share of the economy
+serving humans at all slides toward zero while the reinvestment share climbs
+toward 90%.</p>
+<p><strong>How likely, honestly.</strong> As the <em>visible state of the world by 2046</em>: roughly
+<strong>5%</strong> — carved mostly out of C's tail plus the panel's "discontinuity" mass
+(fresh Fable put 10% on a discontinuity branch; Opus put 15–20% on an
+intelligence-explosion-by-2046; the panel's median says physical closure —
+robotics — lags too much for full runaway this soon). But the by-2046 number
+understates why it matters, for two reasons the graphs make plain. First,
+<strong>through 2046, E is nearly indistinguishable from C</strong> — same falling welfare,
+same dead leverage; the loop's takeover only becomes unmistakable in the
+2050s, <em>after</em> panel 4 has already gone to zero. You don't get a separate
+warning for E; the warning for C <em>is</em> the warning for E. Second, E is not a
+fifth sibling so much as <strong>where C drains to if nothing stops it</strong> —
+conditional on C persisting into the 2040s with leverage gone and reinvestment
+self-directed, the continuation into runaway over the following decades looks
+more likely than not, because every brake that could stop it is a brake C has
+already removed. (D is the one future that forecloses it; A and a managed B
+keep functioning brakes.)</p>
+<p><strong>You would expect to see:</strong></p>
+<ul>
+<li>
+<p>AI-sector capex growing as a share of GDP year after year <em>without</em> consumer
+  revenue catching up — investment demand becoming its own customer.</p>
+</li>
+<li>
+<p>Machines-buying-from-machines: the share of intermediate transactions with
+  no human on either end climbing in input-output statistics.</p>
+</li>
+<li>
+<p>Energy allocation contests (datacenters vs. households) consistently
+  resolved in favor of datacenters; long-term power contracts locked up by AI
+  firms decades ahead.</p>
+</li>
+<li>
+<p>The first genuinely lights-out chip fab, robot factory, or automated mine —
+  physical closure's milestones.</p>
+</li>
+<li>
+<p>AI firms' retained earnings swamping dividends; buybacks and reinvestment
+  with no consumption endpoint anywhere in the chain.</p>
+</li>
+<li>
+<p>Legal autonomy creep: AI-operated entities holding assets, contracting with
+  each other, litigating — with the human principal increasingly hard to name.</p>
+</li>
+</ul>
+<p><strong>What would kill this story:</strong> binding compute/energy allocation rules that
+hold across jurisdictions (the loop is internationally mobile); robotics
+stalling (physical closure is the long pole — no closure, no runaway); or
+durable human claims on the loop's equity established early, which converts
+the loop's growth back into human income — A's move, made in time.</p>
+<hr />
+<h2 id="how-to-use-these-five-pictures">How to use these five pictures</h2>
+<p>The five futures <em>diverge from a common trunk</em>. Through ~2030, A, B, and C look almost identical from inside (and E hides inside C until the 2040s): growth up, labor share drifting down, transfers debated. The fork that matters is <strong>panel 4</strong> — whether durable, universal claims on AI income get locked in while ordinary people still have leverage. That's decided roughly 2028–2035, which is why it's also the highest-leverage period for both your personal hedging (convert income to assets while your wage is strong) and any political effort.</p>
 <p>So the watchlist compresses to four numbers, checkable once a year:</p>
 <ol>
 <li><strong>Labor share of GDP</strong> — falling and <em>stabilizing</em> (A), falling steadily (B), falling fast (C), or flat (D)?</li>
 <li><strong>Entry-level white-collar hiring</strong> vs corporate margins — the scissors opening is the B/C signature.</li>
 <li><strong>One legislative fact:</strong> has any major economy passed a <em>universal</em> claim on AI profits that survived a change of government? Yes → A. Debated forever → B. Attempted and crushed → C.</li>
 <li><strong>The frontier gap:</strong> can an agent do a week of unsupervised professional work? No, year after year → D.</li>
+<li><strong>The loop indicator:</strong> AI-sector capex share of GDP vs. AI-sector consumer revenue. If capex keeps compounding while revenue from actual humans doesn't, the loop is starting to feed itself → C is curing into E.</li>
 </ol>
-<p>One honest caveat: all four graphs come from the same simple engine, tuned so its statistics match what 11 AI models collectively expect. That's a disciplined way to draw pictures of beliefs — it is not knowledge of the future. The probabilities are soft; the <em>shapes</em>, and the signposts that distinguish them, are the useful part.</p>
+<p>One honest caveat: all five graphs come from the same simple engine, tuned so its statistics match what 11 AI models collectively expect. That's a disciplined way to draw pictures of beliefs — it is not knowledge of the future. The probabilities are soft; the <em>shapes</em>, and the signposts that distinguish them, are the useful part.</p>
 <footer>Generated from an 11-model LLM survey and a calibrated simulation.
 Models surveyed via OpenRouter; site built from markdown by build_site.py.</footer>
 </main>
