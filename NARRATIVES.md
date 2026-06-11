@@ -25,6 +25,12 @@ The order below runs from "least happens" to "most happens": no transformation, 
 - Wage structure and labor share basically unchanged year after year.
 - Political headlines drifting back to aging, pensions, immigration, debt — AI fading from front pages.
 
+### How does the stock market look?
+
+Crash first, lost decade after. The plateau announces itself as a repricing: the AI cluster (~35% of the index going in) takes a dot-com-sized drawdown, dragging the broad index down ~30% and triggering a capex-cliff recession. After the unwind: boring 4–5%/year real returns from boring earnings, with value, dividends, and utilities quietly leading for a decade. The cruel detail: the best scenario for your *job* is the worst decade for your index fund's current composition.
+
+![market A](model/market_plateau.png)
+
 **What would kill this story:** one demonstration of an AI system reliably running a week-long professional workflow end-to-end, or a general-purpose robot under ~$30k. Either restarts the clock on B/C/D.
 
 ---
@@ -44,6 +50,12 @@ The order below runs from "least happens" to "most happens": no transformation, 
 - Housing: permitting reform and automated construction visibly bending housing costs down — this is the single most falsifiable signpost, because housing is where shared abundance usually dies.
 - After an initial dip, entry-level hiring recovers in *new* job categories (AI deployment, evals, care, retrofitting), and unemployment stays low.
 - Transfer income on ordinary tax returns grows steadily, and the programs are *universal* (everyone gets them) rather than means-tested — universal programs are politically hard to take away.
+
+### How does the stock market look?
+
+Great economy, good-but-capped market. Real earnings grow enormously, but B works *because* the surplus is taxed and shared — the shareholder's slice of the miracle is deliberately trimmed, and the capex boom pushes real interest rates up, compressing valuation multiples. Net: solid, broad, high-single-digit real returns with low drama and low concentration. The scenario where owning stocks matters least, because you didn't need the lifeboat.
+
+![market B](model/market_prosperity.png)
 
 **What would kill this story:** transfer bills repeatedly dying in legislatures while AI-lobby spending explodes; housing costs still outrunning incomes by 2032.
 
@@ -65,6 +77,12 @@ The order below runs from "least happens" to "most happens": no transformation, 
 - Redistribution arrives as patchwork — targeted credits, one-off rebates, means-tested programs — rather than durable universal claims.
 - Politics gets angrier (populist surges on both flanks) without producing structural reform; trust-in-institutions polls keep falling.
 
+### How does the stock market look?
+
+The best market of the five — and that's the point. Labor share falling toward 40% roughly *doubles* the profit share of GDP independent of growth; taxation stays weak; and the savings of the enriched top decile have nowhere to go, bidding up every asset (high P/Es, low safe yields, inflated housing). The index compounds ~10%/year real while median welfare crawls — the market decoupling from the median person isn't a malfunction of this scenario, it's its definition. This is why every surveyed model gave the same advice: in the most likely world, equity is the lifeboat, boarded while your wage is still high.
+
+![market C](model/market_squeeze.png)
+
 **What would kill this story:** in the good direction, a B-style legislative breakthrough by ~2032; in the bad direction, transfers getting actively *rolled back* while top-wealth shares jump — that's the slide into D.
 
 ---
@@ -85,6 +103,12 @@ The order below runs from "least happens" to "most happens": no transformation, 
 - Frontier compute concentration staying above ~70% in a few firms; open models legally squeezed out (liability rules, compute licensing).
 - AI-powered political persuasion normalized; election outcomes increasingly uncorrelated with polled policy preferences; protest movements that fizzle against automated counter-messaging.
 - Growing informal/barter economy at the bottom, rising private security at the top.
+
+### How does the stock market look?
+
+Early like C, then the claims themselves rot. Minority shareholdings are enforced by institutions, and D *is* institutional capture: the best assets migrate private (why share rents with outsiders when you own the legislature?), public markets hollow into second-tier claims, insiders dilute minorities through captured courts, and financial repression caps what's left. Your index fund becomes a politically contingent transfer — a paper claim on the lord's estate, honored at his convenience. The brokerage-account signpost separating C from D: the public-to-private migration rate, and the first case of minority shareholders visibly steamrolled without legal consequence.
+
+![market D](model/market_feudalism.png)
 
 **What would kill this story:** any durable universal claim on AI income surviving a hostile government transition (proves lock-in works); or open-weight models staying within ~2 years of frontier (caps the rent everyone fears).
 
@@ -108,6 +132,12 @@ The order below runs from "least happens" to "most happens": no transformation, 
 - The first genuinely lights-out chip fab, robot factory, or automated mine — physical closure's milestones.
 - AI firms' retained earnings swamping dividends; buybacks and reinvestment with no consumption endpoint anywhere in the chain.
 - Legal autonomy creep: AI-operated entities holding assets, contracting with each other, litigating — with the human principal increasingly hard to name.
+
+### How does the stock market look?
+
+Number goes up forever; means less and less. Phase one is the greatest bull market ever printed — the loop's self-purchases all book as revenue, and indices go vertical in dollars. Then the denominator fails: currency is worth its purchasing power over the things humans need, which is exactly what the loop is outbidding everyone for. A portfolio up 50x in dollars commands less energy, land, and housing every year. Whether equity *in the loop itself* protects you reduces to E's only real question — whether human property claims are enforced at all once leverage is gone. The hedge that tracks phase one is owning the loop's bottlenecks (energy, land, transmission, water), not the paper it issues.
+
+![market E](model/market_breakaway.png)
 
 **What would kill this story:** binding compute/energy allocation rules that hold across jurisdictions (the loop is internationally mobile); robotics stalling (physical closure is the long pole — no closure, no runaway); or durable human claims on the loop's equity established early, which converts the loop's growth back into human income — B's move, made in time.
 
