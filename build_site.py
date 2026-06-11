@@ -130,7 +130,28 @@ alt="Institutional lag scenario"></a></p>
 """
 
 
+LIST_ITEM = re.compile(r"^\s*([-*+]|\d+\.)\s")
+
+
+def ensure_blank_before_lists(text: str) -> str:
+    """Python-Markdown needs a blank line before a list; GFM doesn't.
+
+    Insert one when a list item directly follows a non-blank, non-list line
+    (skipping fenced code blocks).
+    """
+    out, in_fence = [], False
+    for line in text.splitlines():
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+        if (not in_fence and LIST_ITEM.match(line) and out
+                and out[-1].strip() and not LIST_ITEM.match(out[-1])):
+            out.append("")
+        out.append(line)
+    return "\n".join(out)
+
+
 def render(md_text: str, depth: int, title: str) -> str:
+    md_text = ensure_blank_before_lists(md_text)
     body = markdown.markdown(md_text, extensions=["tables", "fenced_code", "toc"])
     return TEMPLATE.format(title=title, body=body, rel="../" * depth)
 
