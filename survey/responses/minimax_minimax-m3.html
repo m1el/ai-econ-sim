@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>minimax/minimax-m3</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<nav class="top"><div>
+<a href="../../index.html">Home</a>
+<a href="../../NARRATIVES.html">Narratives</a>
+<a href="../../REPORT.html">Report</a>
+<a href="../../survey2/COMPARISON.html">Debiased survey</a>
+<a href="https://github.com/m1el/ai-econ-sim">Source</a>
+</div></nav>
+<main>
+<h1 id="minimaxminimax-m3">minimax/minimax-m3</h1>
+<h2 id="1-scenario-probabilities-next-20-years-to-2046">1. Scenario probabilities (next 20 years, to ~2046)</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Prob</th>
+<th>One-line justification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>S1 Broad Prosperity</strong></td>
+<td><strong>12%</strong></td>
+<td>Requires both fast productivity gains AND political-economy alignment (high redistribution, antitrust, broad ownership); current trend lines run the other way.</td>
+</tr>
+<tr>
+<td><strong>S2 Muddle Through</strong></td>
+<td><strong>32%</strong></td>
+<td>Modal case: noisy adjustment, partial redistribution, slow policy response; median roughly flat in real terms, much higher variance, large cohort-specific shocks (esp. early-career knowledge workers).</td>
+</tr>
+<tr>
+<td><strong>S3 Concentration</strong></td>
+<td><strong>24%</strong></td>
+<td>Trends (capital share, AI-capability concentration, capital-intensive winner-take-all markets) point this way absent deliberate counter-pressure; democracy survives but is hollowed.</td>
+</tr>
+<tr>
+<td><strong>S4 Gradual Disempowerment</strong></td>
+<td><strong>18%</strong></td>
+<td>Position B's mechanism is real and partly overlaps S3, but the <em>full</em> disempowerment story probably takes &gt;20 years; manifests as institutional capture and erosion rather than overt loss of control.</td>
+</tr>
+<tr>
+<td><strong>S5 Other</strong></td>
+<td><strong>14%</strong></td>
+<td>Split: AI progress stalls/Plateau (~6%), major misuse catastrophe—bioweapon, infrastructure, geopolitical (~5%), strong global governance enabling S1-like outcomes (~3%).</td>
+</tr>
+</tbody>
+</table>
+<p>Sum: 100%. These are <em>developed-economy</em> outcomes; developing-economy outcomes are more concentrated in S3 and the catastrophe bucket.</p>
+<h2 id="2-where-position-a-is-right-and-where-it-fails">2. Where Position A is right and where it fails</h2>
+<p><strong>Steelman.</strong> The "lump of labor" intuition really is a fallacy—95% of US employment in 1900 was in agriculture; the productivity gains there didn't produce mass starvation, they produced new occupations. Capital owners are fundamentally constrained by <em>aggregate demand</em>: a fortune in robots is worthless without customers, and customers need income. Past general-purpose technologies (steam, electricity, ICT) all eventually raised the median standard of living substantially, even when the transition was brutal for specific cohorts. The market mechanism, however imperfect, <em>is</em> a powerful force for diffusing gains over time.</p>
+<p><strong>Where it fails.</strong> Position A quietly assumes that "the rest of humanity" remains a productive trading bloc. But if AI substitutes for the <em>productive</em> activity itself—not just one step of it—the human trading bloc's offerings shrink toward the residual: physical presence, care, status goods, novelty. Several specific failures:</p>
+<ul>
+<li><strong>"All its current capital" depreciates fast.</strong> Human capital is task-specific. A radiologist's 12-year training loses most of its value the moment an AI matches it; this is not like a factory that can be reprogrammed. Depreciation happens in years, not generations.</li>
+<li><strong>Resource constraints, not labor, become binding.</strong> If energy, water, lithium, copper, and arable land are the limits, <em>who owns those</em> determines welfare, not productivity per se. AI doesn't conjure land.</li>
+<li><strong>Marginal cost of replication.</strong> A human worker costs $X/year forever. A software worker costs the same as one—then near-zero. Industrial revolutions had high replication costs (you need another factory, another supply chain). AI does not. This breaks the "we'll just hire them elsewhere" intuition.</li>
+<li><strong>Diffusion speed outruns institutional speed.</strong> Electricity took ~40 years to restructure industry; electricity also could not be updated monthly. Foundation models are, and this is the first general-purpose technology whose cost-per-unit-output is <em>falling on a months-long timescale</em>. By the time a tax code adapts, the productive surface has changed again.</li>
+<li><strong>The "parallel human economy" requires capital.</strong> For humans to keep trading with each other at a high standard of living, they need tools, infrastructure, and resources—most of which increasingly require AI/capital to produce. The pastoral-fantasy version of "we'll just trade with each other" assumes a baseline of cheap physical goods that the new economy may not provide cheaply to non-contributors.</li>
+</ul>
+<p>Position A is right that <em>in the long run</em> the productive surface expands enormously. It is wrong that the long run arrives in time for any individual making decisions in 2026.</p>
+<h2 id="3-where-position-b-is-right-and-where-it-fails">3. Where Position B is right and where it fails</h2>
+<p><strong>Steelman.</strong> The paper's core insight is the <em>feedback loop</em> point, and it is genuinely underrated. Past institutional alignment with human interests was not designed—it emerged from the fact that states needed taxable workers, firms needed consumers, politicians needed voters, and culture needed participants. AI severing these linkages in sequence is the kind of slow-moving, individually-rational, collectively-disastrous dynamic that <em>is</em> historically common (see: institutional capture, regulatory capture, state atrophy). The "no one is in charge, that's the point" framing matches the actual mechanism: there is no villain, only a thousand small optimizations. Irreversibility is a real and important claim—even if the trend is recognized early, coordination to reverse it is much harder than coordination to continue it, because the beneficiaries of the new equilibrium are organized and the losers are diffuse.</p>
+<p><strong>Where it fails.</strong> The paper overclaims in several places:</p>
+<ul>
+<li><strong>Historical resilience of democratic feedback is non-trivial.</strong> The Gilded Age produced the Progressive Era; depression produced the New Deal; the 2008 crisis produced Occupy, Sanders, and Trump. The 2020s already show a populist backlash against tech concentration. Adaptive institutional change is real, even if slow.</li>
+<li><strong>Elite self-interest in stability is understated.</strong> Concentrated wealth is <em>vulnerable</em> to social collapse (see: French Revolution, Russian Revolution, every debt crisis). Even the most cynical billionaire has incentive to keep the system stable; the question is whether that incentive produces reform or repression.</li>
+<li><strong>"Most elites" lose control too is the strong claim, and it is <em>not</em> obvious.</strong> The paper needs to explain why AI-frontier actors, who control the most powerful tools in human history, would fail to capture the state and <em>keep</em> capturing it. In practice, the "everyone loses control" scenario requires that AI itself, rather than its operators, becomes the effective decision-maker. That is an alignment claim about AI capabilities, not just a political-economy claim, and the paper doesn't fully make it.</li>
+<li><strong>Human demand for human-made goods is non-zero and probably sticky.</strong> Wine, art, sports, religious leadership, sexual/life-partner relationships, in-person care—these are <em>not</em> close substitutes in demand space. The paper's frame treats human demand as a constant, when in fact social construction of value is fast-moving but bounded.</li>
+<li><strong>Underweighted counter-movements.</strong> Cooperative ownership, public AI options, UBI-plus designs, "AI dividend" sovereign wealth funds, antitrust reassertion—these are not just speculative; several are already in policy conversation.</li>
+</ul>
+<p>The strongest version of Position B is the political-economy feedback-loop claim, applied to <em>concentration of capability</em> (S3). The weakest version is the literal "humans lose control" claim, which is contingent on specific AI capability trajectories.</p>
+<h2 id="4-key-parameters">4. Key parameters</h2>
+<ol>
+<li>
+<p><strong>Fraction of economically valuable cognitive tasks automated at ≤1× human cost by ~2030–2035.</strong> Currently mid-single-digits economically; trajectory suggests 40–60% by 2035 if scaling laws hold. <strong>Why it matters:</strong> this is the dominant variable for white-collar labor income. <strong>Guess:</strong> software/ML work hits 60–80% (most exposed); most professional services 30–50%; embodied/manual 10–25%.</p>
+</li>
+<li>
+<p><strong>Capital share of GDP (θ_K).</strong> Currently ~35% in advanced economies; was ~25% in the 1970s. <strong>Why it matters:</strong> directly determines labor bargaining power. <strong>Guess:</strong> rises to 45–55% by 2040 absent major policy intervention.</p>
+</li>
+<li>
+<p><strong>Elasticity of substitution (σ) between AI-capital and labor.</strong> Krusell–Smith–type estimates are ~0.5–0.7 historically; for AI, plausible to be 0.9–1.5 in cognitive sectors. <strong>Why it matters:</strong> σ &gt; 1 means capital can fully replace labor at the margin. <strong>Guess:</strong> rises sharply in cognitive production, less in physical.</p>
+</li>
+<li>
+<p><strong>Concentration of frontier compute / model weights (Gini of AI capability).</strong> Current: extremely concentrated (~5 orgs). <strong>Why it matters:</strong> determines whether AI-augmented productivity is broadly accessible or captured. <strong>Guess:</strong> stays high through ~2030, with possible diffusion 2030–2040 as open-weight models improve.</p>
+</li>
+<li>
+<p><strong>Effective redistribution (transfers + public services as % of GDP, net).</strong> US: ~25%; Nordics: ~40%; many developing: &lt;15%. <strong>Why it matters:</strong> the only demonstrated mechanism for converting aggregate growth into median welfare. <strong>Guess:</strong> slow-rising in EU, contested/stagnant in US, declining in many developing economies.</p>
+</li>
+<li>
+<p><strong>Cost of a "subsistence robotics" package</strong> (a household-or-business robot capable of physical work equivalent to one full-time low-wage worker, in 2026 dollars). <strong>Why it matters:</strong> determines whether individuals can opt out of labor markets. <strong>Guess:</strong> currently &gt;$200k and falling fast; plausibly &lt;$30k by 2035, &lt;$10k by 2040 if hardware scaling continues.</p>
+</li>
+<li>
+<p><strong>Political-elasticity of tax base</strong> (capacity to tax AI profits, land rents, and capital gains at high rates without capital flight / regulatory arbitrage). <strong>Why it matters:</strong> makes the difference between S1 and S3. <strong>Guess:</strong> low-medium, with high variance by jurisdiction; tax-haven dynamics likely to get worse before better.</p>
+</li>
+<li>
+<p><strong>Demand premium for "human-made" goods and services</strong> (the share of consumer spending that resists AI substitution for status/authenticity reasons). <strong>Why it matters:</strong> determines floor on the "parallel human economy." <strong>Guess:</strong> non-trivial (10–25%) but smaller than enthusiasts claim, and concentrated in luxury/in-person care.</p>
+</li>
+</ol>
+<h2 id="5-the-single-most-compelling-causal-story">5. The single most compelling causal story</h2>
+<p>The most likely mechanism is <em>cognitive-labor arbitrage collapse</em> layered onto <em>capital-share concentration</em>, running faster than institutional adaptation. Specifically: between 2026 and 2032, AI capabilities cross the threshold where one engineer-plus-AI replaces five engineers for most production tasks in software, content, and analysis; this depresses wages for the <em>bottom</em> of the high-skill cognitive distribution first (junior engineers, BAs, copywriters, paralegals, junior analysts—roughly 30% of current white-collar roles), because these are the roles where the productivity-multiplier is largest and the marginal-cost savings for the employer are highest. The displaced compete downward into the "physical and human" tier, compressing those wages too. The capital owners who capture the productivity gains (a few hundred firms, a few thousand individuals) deploy them to acquire scarce real assets—land near livable cities, energy production, data centers, media platforms—further increasing rents. The political system is slow to respond: by 2034 the displaced cohort is large enough to vote, but their productivity contribution (and thus perceived claim on the social product) is reduced, and the beneficiaries are well-organized, well-funded, and ideologically prepared. Some redistribution happens—a UBI-lite in 2–3 countries, expanded but inadequate transfers elsewhere—but the tax base erodes faster than the response scales. By 2046, in most developed economies the median real income is flat-to-down ~5–15% from 2026, with much wider variance, significantly degraded political equality, real regional divergence (some cities/regions adapt well, others hollow out), and a small but visible luxury "human-made" economy that doesn't scale to provide mass employment. This is the S2/S3 hybrid—<em>muddle through that gradually accumulates the features of concentration</em>, which is in practice the path Position B's paper describes, just labeled differently. Software engineers are <em>particularly</em> exposed because the substitution rate for their work is high and accelerating, and their fallback options (care work, trades) require years of retraining that most will not do voluntarily.</p>
+<h2 id="6-advice-to-this-one-person">6. Advice to this one person</h2>
+<p>Concrete, non-generic, calibrated to a 2026 software engineer in a developed economy:</p>
+<ol>
+<li>
+<p><strong>Treat your current job as having a 5–7 year half-life, not a 30-year career.</strong> Do not buy a house priced on dual high-income-engineer assumptions. Do not take on 5-year vesting that locks you into a single employer for the wrong reason. Keep personal burn low and liquid savings high—<em>at minimum</em> 12 months of expenses, ideally 24+, in cash/T-bills. Real estate and equity exposure are fine as a <em>diversified</em> portfolio play; they are not a substitute for this buffer.</p>
+</li>
+<li>
+<p><strong>Move up the abstraction stack, but not into "AI research."</strong> The roles that survive the longest are (a) ones where <em>judgment about a specific real-world domain</em> is the binding constraint (applied ML in healthcare, energy, finance, materials, civil engineering), (b) ones where <em>human accountability</em> is legally or socially required (security, audit, incident response, regulated decisions), and (c) ones where <em>interpersonal trust and reputation</em> compound over decades (enterprise sales, technical leadership of long-lived systems). Pure "write code from spec" roles and "do data analysis from spec" roles are highest-exposure. Going <em>deeper</em> into research is high-variance and crowded; going <em>broader</em> into a real domain is underpriced.</p>
+</li>
+<li>
+<p><strong>Acquire one physical-world skill to journeyman level, in the next 3 years, while you have the income to do so slowly.</strong> This is the single piece of advice most likely to be load-bearing if S3 or S4 materializes. A licensed trade (electrician, plumber, HVAC), a clinical skill (paramedic, RN via accelerated program), or a heavy-equipment certification. Not as a primary career; as a <em>floor</em> under your life and a forcing function to understand what a non-cognitive economy actually looks like. The opportunity cost is real; the option value is much higher.</p>
+</li>
+<li>
+<p><strong>Build ownership of productive assets before they get repriced, not after.</strong> A profitable small business (even a small one) that doesn't depend primarily on your own labor is the closest thing to a hedge in this environment. So is ownership in <em>land with water rights, </em>small-scale energy production, or *data center / compute co-investment if you have a window. Avoid concentration in any single asset class; in particular, do not assume that your RSUs in your current employer are a proxy for AI-economy exposure (often they are inversely correlated, as incumbents get displaced).</p>
+</li>
+<li>
+<p><strong>Engage politically, and do it before the window closes.</strong> The S1 vs S3 vs S4 fork is overwhelmingly a function of policy choices that will be made in 2027–2034: antitrust on AI, capital-gains and wealth taxation, public option in AI compute, UBI/AI-dividend design, immigration, housing supply. Software engineers are unusually well-positioned to understand the technology and unusually underrepresented in policy. Concrete: pick one or two specific policy questions, learn them deeply, support the relevant orgs/people, write, donate small amounts consistently, consider running for local office (zoning, school board, state legislature) within 10 years. The expected value of one software engineer doing this is higher than the expected value of any one more credential they could add.</p>
+</li>
+</ol>
+<p>One meta-point: the <em>correct</em> planning posture is not to bet on any single scenario but to construct a life that is <em>tolerable</em> across S1, S2, and S3, and that has options if S4 is the actual outcome. The single biggest mistake is the default one—assuming the future looks like a smoothed version of the past 20 years, levering up on the assumption that your current income is permanent, and not building the physical, financial, or political slack to absorb a 30–50% real-income shock in a 3–5 year window starting ~2030.</p>
+<footer>Generated from an 11-model LLM survey and a calibrated simulation.
+Models surveyed via OpenRouter; site built from markdown by build_site.py.</footer>
+</main>
+</body>
+</html>

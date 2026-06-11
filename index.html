@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI economy scenarios</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top"><div>
+<a href="index.html">Home</a>
+<a href="NARRATIVES.html">Narratives</a>
+<a href="REPORT.html">Report</a>
+<a href="survey2/COMPARISON.html">Debiased survey</a>
+<a href="https://github.com/m1el/ai-econ-sim">Source</a>
+</div></nav>
+<main>
+
+<h1>What happens to the median person under advanced AI?</h1>
+<p>One person's attempt to plan their life: 10 frontier LLMs surveyed twice
+(once with a framed prompt, once debiased), plus an 11th fresh-context model,
+plus a small macroeconomic simulator calibrated so its statistics match the
+panel's collective forecasts.</p>
+
+<div class="cards">
+<div class="card"><h3><a href="NARRATIVES.html">Four futures</a></h3>
+<p>The main deliverable: four narratives with graphs and the observable
+signposts that tell you which path you're on.</p></div>
+
+<div class="card"><h3><a href="survey2/COMPARISON.html">The debiased survey</a></h3>
+<p>11 models, neutral instrument, calibrated probability estimates — and a
+measurement of how much prompt framing skewed the first survey.</p></div>
+
+<div class="card"><h3><a href="REPORT.html">Full report (survey 1)</a></h3>
+<p>The original synthesis: what the models think, key parameters, the four
+most compelling causal stories, simulation v1.</p></div>
+
+<div class="card"><h3><a href="https://github.com/m1el/ai-econ-sim">Simulator code</a></h3>
+<p><code>model/simulate_v2.py</code> — task-based automation model with
+political feedback, calibrated to the panel. <code>uv run</code> it.</p></div>
+</div>
+
+<h2>The single most useful picture</h2>
+<p>The most likely path (~35%): the economy more than triples while the median
+person's welfare crawls. Watch the gap between the gray and green lines.</p>
+<p><a href="NARRATIVES.html"><img src="model/narrative_B_institutional_lag.png"
+alt="Institutional lag scenario"></a></p>
+
+<h2>Raw survey responses</h2>
+<p>Survey 2 (neutral): <a href="survey2/responses/anthropic_claude-fable-5.html">anthropic</a> · <a href="survey2/responses/anthropic_claude-opus-4.8.html">anthropic</a> · <a href="survey2/responses/deepseek_deepseek-v4-pro.html">deepseek</a> · <a href="survey2/responses/google_gemini-3.1-pro-preview.html">google</a> · <a href="survey2/responses/minimax_minimax-m3.html">minimax</a> · <a href="survey2/responses/mistralai_mistral-large-2512.html">mistralai</a> · <a href="survey2/responses/moonshotai_kimi-k2.6.html">moonshotai</a> · <a href="survey2/responses/openai_gpt-5.5.html">openai</a> · <a href="survey2/responses/qwen_qwen3.7-max.html">qwen</a> · <a href="survey2/responses/x-ai_grok-4.3.html">x-ai</a> · <a href="survey2/responses/z-ai_glm-5.1.html">z-ai</a></p>
+<p>Survey 1 (framed): <a href="survey/responses/anthropic_claude-opus-4.8.html">anthropic</a> · <a href="survey/responses/deepseek_deepseek-v4-pro.html">deepseek</a> · <a href="survey/responses/google_gemini-3.1-pro-preview.html">google</a> · <a href="survey/responses/minimax_minimax-m3.html">minimax</a> · <a href="survey/responses/mistralai_mistral-large-2512.html">mistralai</a> · <a href="survey/responses/moonshotai_kimi-k2.6.html">moonshotai</a> · <a href="survey/responses/openai_gpt-5.5.html">openai</a> · <a href="survey/responses/qwen_qwen3.7-max.html">qwen</a> · <a href="survey/responses/x-ai_grok-4.3.html">x-ai</a> · <a href="survey/responses/z-ai_glm-5.1.html">z-ai</a></p>
+<p>Instruments: <a href="survey/question.html">survey 1</a> ·
+<a href="survey2/question.html">survey 2</a></p>
+
+<footer>Generated from an 11-model LLM survey and a calibrated simulation.
+Models surveyed via OpenRouter; site built from markdown by build_site.py.</footer>
+</main>
+</body>
+</html>

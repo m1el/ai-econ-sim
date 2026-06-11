@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Debiased re-survey: results and comparison with the framed survey</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<nav class="top"><div>
+<a href="../index.html">Home</a>
+<a href="../NARRATIVES.html">Narratives</a>
+<a href="../REPORT.html">Report</a>
+<a href="../survey2/COMPARISON.html">Debiased survey</a>
+<a href="https://github.com/m1el/ai-econ-sim">Source</a>
+</div></nav>
+<main>
+<h1 id="debiased-re-survey-results-and-comparison-with-the-framed-survey">Debiased re-survey: results and comparison with the framed survey</h1>
+<p><em>Same 10 models, 2026-06-11. Raw responses: <code>survey2/responses/</code>. Instrument: <code>survey2/question.md</code>.</em></p>
+<h2 id="what-changed-in-the-instrument">What changed in the instrument</h2>
+<p>Survey 1 contained four plausible bias sources: (1) it presented the Metzger thread and the Gradual Disempowerment paper as the two reference positions (anchoring + salience); (2) it described the asker as worried, pessimistic, and hoping to be proven wrong (sympathy/accommodation pressure); (3) it imposed a five-bucket outcome taxonomy where two of the five buckets (S3, S4) were bad-flavored — taxonomy granularity itself attracts probability mass; (4) it asked for steelmanning, making both extreme narratives maximally salient.</p>
+<p>Survey 2 removed all of this: no positions, no persona, no taxonomy. Models stated their own AI-pace assumptions, invented their own trajectories with probabilities, and answered 10 <em>independent</em> calibrated probability questions about concrete observables in 2046.</p>
+<h2 id="calibrated-estimates-the-cleanest-cross-model-evidence">Calibrated estimates (the cleanest cross-model evidence)</h2>
+<p>Probability (%) that each statement is true of developed economies in 2046:</p>
+<table>
+<thead>
+<tr>
+<th>Statement</th>
+<th>GPT-5.5</th>
+<th>Opus</th>
+<th>Gemini</th>
+<th>Grok</th>
+<th>DeepSeek</th>
+<th>Qwen</th>
+<th>Kimi</th>
+<th>GLM</th>
+<th>MiniMax</th>
+<th>Mistral</th>
+<th><strong>Mean</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a) Median real disposable income <strong>higher</strong> than 2026</td>
+<td>72</td>
+<td>68</td>
+<td>65</td>
+<td>68</td>
+<td>65</td>
+<td>75</td>
+<td>55</td>
+<td>65</td>
+<td>60</td>
+<td>60</td>
+<td><strong>65</strong></td>
+</tr>
+<tr>
+<td>b) Median income <strong>&gt;20% lower</strong> than 2026</td>
+<td>8</td>
+<td>14</td>
+<td>15</td>
+<td>12</td>
+<td>25</td>
+<td>10</td>
+<td>12</td>
+<td>15</td>
+<td>15</td>
+<td>20</td>
+<td><strong>15</strong></td>
+</tr>
+<tr>
+<td>c) Labor share of income <strong>below 40%</strong></td>
+<td>18</td>
+<td>40</td>
+<td>80</td>
+<td>45</td>
+<td>70</td>
+<td>65</td>
+<td>28</td>
+<td>40</td>
+<td>40</td>
+<td>45</td>
+<td><strong>47</strong></td>
+</tr>
+<tr>
+<td>d) <strong>&gt;25% prime-age involuntary joblessness</strong></td>
+<td>10</td>
+<td>22</td>
+<td>35</td>
+<td>22</td>
+<td>15</td>
+<td>35</td>
+<td>18</td>
+<td>25</td>
+<td>22</td>
+<td>30</td>
+<td><strong>23</strong></td>
+</tr>
+<tr>
+<td>e) Citizens' influence over policy <strong>substantially weaker</strong></td>
+<td>55</td>
+<td>52</td>
+<td>70</td>
+<td>55</td>
+<td>80</td>
+<td>60</td>
+<td>68</td>
+<td>55</td>
+<td>65</td>
+<td>55</td>
+<td><strong>62</strong></td>
+</tr>
+<tr>
+<td>f) Top-1% wealth share <strong>up ≥10 points</strong></td>
+<td>32</td>
+<td>45</td>
+<td>85</td>
+<td>60</td>
+<td>75</td>
+<td>50</td>
+<td>38</td>
+<td>35</td>
+<td>50</td>
+<td>40</td>
+<td><strong>51</strong></td>
+</tr>
+<tr>
+<td>g) Housing+energy+food a <strong>larger</strong> budget share</td>
+<td>43</td>
+<td>48</td>
+<td>60</td>
+<td>35</td>
+<td>55</td>
+<td>80</td>
+<td>48</td>
+<td>60</td>
+<td>55</td>
+<td>50</td>
+<td><strong>53</strong></td>
+</tr>
+<tr>
+<td>h) Capable household robot <strong>&lt; 6 months income</strong></td>
+<td>45</td>
+<td>35</td>
+<td>40</td>
+<td>40</td>
+<td>60</td>
+<td>40</td>
+<td>22</td>
+<td>75</td>
+<td>35</td>
+<td>70</td>
+<td><strong>46</strong></td>
+</tr>
+<tr>
+<td>i) Transfers the <strong>largest income source</strong> for median household</td>
+<td>22</td>
+<td>30</td>
+<td>35</td>
+<td>50</td>
+<td>30</td>
+<td>35</td>
+<td>30</td>
+<td>30</td>
+<td>20</td>
+<td>35</td>
+<td><strong>32</strong></td>
+</tr>
+<tr>
+<td>j) AI/operators allocate resources with <strong>little human oversight</strong></td>
+<td>28</td>
+<td>22</td>
+<td>55</td>
+<td>30</td>
+<td>20</td>
+<td>70</td>
+<td>12</td>
+<td>45</td>
+<td>35</td>
+<td>60</td>
+<td><strong>38</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>The shape of this table is the headline result.</strong> Material questions lean optimistic: 65% that the median person is <em>richer</em> in 2046, only 15% on a &gt;20% income decline, only 23% on mass involuntary joblessness. Power and distribution questions lean pessimistic: 62% that ordinary citizens' political influence is substantially weaker, 51% on a major jump in top-1% wealth share, 53% that essentials eat more of the median budget. The "comfortable but politically weaker" pattern — which survey 1 might have manufactured through framing — <strong>reproduces from a neutral prompt</strong>.</p>
+<h2 id="self-generated-trajectories-mapped-to-comparable-categories">Self-generated trajectories, mapped to comparable categories</h2>
+<p>Models invented their own scenarios (no taxonomy given). Classifying each model's trajectories by its <em>own description of the median person's 2046 outcome</em> (my mapping — see caveats):</p>
+<table>
+<thead>
+<tr>
+<th>Outcome for median person</th>
+<th>Survey 2 (neutral)</th>
+<th>Survey 1 (framed, S-buckets)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clearly better off</td>
+<td><strong>~35%</strong></td>
+<td>18.7% (S1)</td>
+</tr>
+<tr>
+<td>Roughly flat / precarious</td>
+<td><strong>~34%</strong></td>
+<td>34.5% (S2)</td>
+</tr>
+<tr>
+<td>Worse off / powerless dependent</td>
+<td><strong>~27%</strong></td>
+<td>39.3% (S3+S4)</td>
+</tr>
+<tr>
+<td>Stall / shock / other</td>
+<td><strong>~4%</strong></td>
+<td>7.5% (S5)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-big-was-the-framing-bias">How big was the framing bias?</h2>
+<ol>
+<li><strong>The framed survey was ~12–15 points more pessimistic on scenario probabilities.</strong> Under neutral elicitation, "clearly better off" roughly doubled (19→35%) and the bad bucket shrank (39→27%). Plausible mechanisms: two-of-five bad buckets in my taxonomy, salience of the disempowerment paper, and accommodation of the worried asker. Direction of causality is clear because the calibrated estimates (which had no taxonomy to anchor on) sit <em>between</em> the two scenario aggregations.</li>
+<li><strong>What did NOT change — the robust findings:</strong></li>
+<li><strong>Political-influence erosion survived debiasing fully</strong>: 62% mean on (e), with <em>every</em> model ≥52%. This was never an artifact of citing the paper.</li>
+<li><strong>The bifurcated-price mechanism appeared spontaneously</strong> in 9/10 neutral responses (digital deflation vs. housing/energy/land inflation; "Baumol's cost disease on steroids" — Qwen; "the race between deflationary AI and inelastic physical assets" — Gemini). Nobody was prompted with it.</li>
+<li><strong>The redistribution-race mechanism also reappeared unprompted</strong> as the #1 "mechanism you'd bet on" in 6/10 responses (GPT-5.5's "pass-through rate", Opus's "ownership + political capacity, not aggregate output", Grok, MiniMax, Mistral, DeepSeek).</li>
+<li><strong>Housing as the single biggest spoiler</strong> — named by 8/10 in both surveys.</li>
+<li><strong>What the neutral survey surfaced that the framed one suppressed:</strong></li>
+<li><strong>More probability on plateau/stall/bottleneck worlds.</strong> My S5 bucket compressed "AI fizzles," "energy bottleneck," "regulatory thicket," and "geopolitical fracture" into one 7.5% afterthought; freed from the taxonomy, models put <strong>15–35%</strong> on slowdown/bottleneck trajectories (DeepSeek 20% energy-bottleneck, Qwen 20% stagnation, Kimi 15% plateau, Mistral 15% AI winter + 20% degrowth). A meaningfully large "this whole debate is moot, 2046 looks like 2026 but older and more indebted" possibility was being hidden.</li>
+<li><strong>Energy, demographics (aging), and climate as first-class drivers</strong> — barely mentioned in survey 1, prominent in survey 2 (Qwen's old-age dependency ratio, Mistral's climate shocks, MiniMax's "AI is energy-gated before it's labor-gated").</li>
+<li><strong>Wider genuine disagreement than the framed survey suggested.</strong> The forced buckets made models look like they agreed (everyone ~35% S2). The independent estimates expose real spread: labor share &lt;40% ranges from 18% (GPT-5.5) to 80% (Gemini); AI-runs-the-economy (j) from 12% (Kimi) to 70% (Qwen). The apparent consensus was partly an artifact of the instrument.</li>
+</ol>
+<h2 id="addendum-fresh-instance-fable-5-11th-panelist">Addendum: fresh-instance Fable 5 (11th panelist)</h2>
+<p>A clean <code>anthropic/claude-fable-5</code> instance (no conversation context — requested as a "pair of fresh eyes" because the assistant instance had absorbed the paper, the pessimistic prior, and all panel responses) answered the same neutral questionnaire. Result (<code>responses/anthropic_claude-fable-5.md</code>):</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Fresh Fable</th>
+<th>Panel mean (10)</th>
+<th>Position vs panel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a) median income higher</td>
+<td><strong>80</strong></td>
+<td>65</td>
+<td>most optimistic of all 11</td>
+</tr>
+<tr>
+<td>b) income &gt;20% lower</td>
+<td><strong>4</strong></td>
+<td>15</td>
+<td>lowest</td>
+</tr>
+<tr>
+<td>c) labor share &lt;40%</td>
+<td><strong>18</strong></td>
+<td>47</td>
+<td>tied-lowest (with GPT-5.5)</td>
+</tr>
+<tr>
+<td>d) &gt;25% joblessness</td>
+<td><strong>6</strong></td>
+<td>23</td>
+<td>lowest</td>
+</tr>
+<tr>
+<td>e) citizen influence weaker</td>
+<td><strong>35</strong></td>
+<td>62</td>
+<td>far below every other model (all ≥52)</td>
+</tr>
+<tr>
+<td>f) top-1% wealth +10pp</td>
+<td><strong>15</strong></td>
+<td>51</td>
+<td>far lowest</td>
+</tr>
+<tr>
+<td>g) essentials larger budget share</td>
+<td><strong>30</strong></td>
+<td>53</td>
+<td>lowest</td>
+</tr>
+<tr>
+<td>h) cheap household robot</td>
+<td>35</td>
+<td>46</td>
+<td>low side</td>
+</tr>
+<tr>
+<td>i) transfers largest income source</td>
+<td><strong>12</strong></td>
+<td>32</td>
+<td>lowest</td>
+</tr>
+<tr>
+<td>j) AI allocates, little oversight</td>
+<td>30</td>
+<td>38</td>
+<td>low side — but it volunteers ~70% for "AI deeply embedded in most allocation decisions with nominal human sign-off"</td>
+</tr>
+</tbody>
+</table>
+<p>Observations:</p>
+<ol>
+<li><strong>It bets on the same mechanism as the panel</strong> — "the race between the diffusion speed of labor-substituting AI and the adaptation speed of redistributive institutions" — but assigns much friendlier parameter values, leaning on the historical base rate of political self-correction (factory acts, New Deal, postwar welfare states).</li>
+<li><strong>It names its own soft spot, and it's exactly the disempowerment argument</strong>: "historical precedents involve labor that retained economic leverage to withhold — which is exactly what AI erodes. That last point is the soft spot in my entire central forecast." So the optimism is explicitly conditional on a historical analogy it concedes may not transfer.</li>
+<li>Its trajectory mix: 58% good-ish (productivity boom 30% + steady diffusion 28%), 20% capital-concentrated decoupling (which it calls <em>unstable</em> — likely resolving into correction or worse within a decade), 12% plateau, 10% discontinuity.</li>
+<li>Interpretation options, not mutually exclusive: (i) Anthropic models lean structurally less pessimistic on institutional erosion (Opus 4.8 was also below panel mean on e/f, at 52/45); (ii) one-sample noise; (iii) the rest of the panel is anchored by the same doom-flavored discourse in training data and Fable discounts it harder. The conversation-context experiment can't distinguish these — but it does confirm the original suspicion: an instance marinated in this conversation would not have produced these numbers.</li>
+</ol>
+<h2 id="caveats-on-this-comparison">Caveats on this comparison</h2>
+<ul>
+<li>The trajectory mapping (better/flat/worse) is my judgment call on free-form text; the per-model trajectory lists are in the raw files if you want to audit. The hardest cases are "high material security, zero mobility/agency" worlds (Qwen's Automated Welfare State, Gemini's Managed Abundance) — I counted them as "better off" on material grounds, but they are S4-flavored on agency. If you instead count them as bad, the two surveys nearly agree — i.e., <strong>some of the measured "bias" is really a disagreement about whether a comfortable, powerless life counts as a bad outcome.</strong> That value question is yours to answer, not the models'.</li>
+<li>Same models, same temperature (0.7), one sample each — no repeat sampling, so individual numbers carry sampling noise of maybe ±5-10 points.</li>
+<li>Kimi's response was truncated by the completion cap after its 3rd driver; its trajectories and calibrated estimates are complete. MiniMax lost only its final sentence.</li>
+</ul>
+<h2 id="bottom-line-updated-beliefs-after-debiasing">Bottom line (updated beliefs after debiasing)</h2>
+<ul>
+<li><strong>Material floor: stronger than the framed survey implied.</strong> Best estimate ~65% the median person in a developed economy is materially better off in 2046, and only ~15% on severe decline. Your "lots of suffering" prior loses more ground.</li>
+<li><strong>Power and concentration: unchanged by debiasing.</strong> ~62% weaker citizen influence and ~51% major wealth concentration jump are the most framing-robust pessimistic numbers in the whole exercise. Your "concentration of power" prior survives as the <em>most likely single direction of change</em>, even from a neutral prompt.</li>
+<li><strong>New mass on "nothing transformative happens by 2046"</strong> (~15-25%): plateau, energy bottlenecks, regulation. In those worlds your existing career plan mostly survives, which is itself decision-relevant: the case for panic-pivoting is weaker than survey 1 suggested, while the case for capital accumulation and political engagement is unchanged.</li>
+</ul>
+<footer>Generated from an 11-model LLM survey and a calibrated simulation.
+Models surveyed via OpenRouter; site built from markdown by build_site.py.</footer>
+</main>
+</body>
+</html>
