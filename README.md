@@ -26,9 +26,9 @@ an attempt to answer it well enough to plan a life around.
     survey, validated by a built-in calibration table against the panel's
     statement probabilities. One statement refuses to calibrate, and the
     docstring explains why that residual is itself a finding.
-  - `narratives.py` — renders the four scenario figures.
+  - `narratives.py` + `runaway.py` — render the five scenario figures.
 - **The synthesis** — `REPORT.md` (survey 1 + v1 model) and `NARRATIVES.md`
-  (four futures with graphs and observable signposts), built into a static
+  (five futures with graphs and observable signposts), built into a static
   site by `build_site.py` and deployed by GitHub Actions
   (`.github/workflows/pages.yml`).
 

@@ -1,6 +1,6 @@
-# Four futures: what might happen, and how you'd know which one you're in
+# Five futures: what might happen, and how you'd know which one you're in
 
-*Built from the debiased 11-model survey (`survey2/`) and the calibrated simulator (`model/simulate_v2.py`). Each narrative is one of the scenario archetypes the surveyed models generated on their own; the probabilities are roughly where the panel put them. Graphs: `model/narrative_*.png`, regenerate with `uv run model/narratives.py`.*
+*Built from the debiased 11-model survey (`survey2/`) and the calibrated simulator (`model/simulate_v2.py`). Each narrative is one of the scenario archetypes the surveyed models generated on their own; the probabilities are roughly where the panel put them. Graphs: `model/narrative_*.png`, regenerate with `uv run model/narratives.py` (A–D) and `uv run model/runaway.py` (E).*
 
 **Two terms, once, so the graphs make sense.** *Labor share* = the fraction of all income in the economy that gets paid out as wages (it's been ~55–60% for a century — that stability is why working for a living has worked). *Transfers* = money the government sends you that you didn't earn from a job: benefits, tax credits, or a future "AI dividend."
 
@@ -84,14 +84,86 @@
 
 ---
 
-## How to use these four pictures
+## E. The runaway loop — automation serving itself (~5% by 2046, but read the fine print)
 
-The four futures *diverge from a common trunk*. Through ~2030, A, B, and C look almost identical from inside: growth up, labor share drifting down, transfers debated. The fork that matters is **panel 4** — whether durable, universal claims on AI income get locked in while ordinary people still have leverage. That's decided roughly 2028–2035, which is why it's also the highest-leverage period for both your personal hedging (convert income to assets while your wage is strong) and any political effort.
+![E](model/narrative_E_runaway.png)
+
+**The story.** Every scenario above quietly assumes the AI economy stays an
+*instrument* — something that produces for someone. This one asks: what if the
+loop closes? Three things have to happen, and none requires anyone to choose
+them. *Financial closure:* the AI sector funds its own expansion from its own
+revenue (partially here already — a meaningful slice of current GDP growth is
+AI firms buying datacenters from AI-adjacent firms). *Physical closure:*
+machines making machines — lights-out fabs, automated mines, robots building
+power plants and more robots. *Decisional closure:* allocation run by AI with
+ceremonial human sign-off (the panel gave "nominal oversight" versions of this
+up to 70%). Once all three close, the economy contains an autocatalytic loop:
+output reinvested into capacity with a return above one and shrinking human
+involvement per cycle. Competition assembles it without a villain — the firm
+that lets its AI reinvest and self-direct compounds faster than the one that
+pauses for review, and ownership drifts to entities (index funds, treasuries,
+AI-managed portfolios) that never consume, only compound.
+
+**Nobody is attacked. People are outbid.** That's the mechanism to internalize
+from the graph: the loop wants the same energy, land, and matter humans live
+on, and it can always pay more. Panel 1 (note the log scale): total output
+goes vertical while the human-relevant slice flatlines and median welfare
+sinks onto a floor that resource prices are simultaneously dissolving — the
+parallel "humans trade with each other" economy dies not from prohibition but
+from its input bill. Panel 2 is the heart of it: the share of the economy
+serving humans at all slides toward zero while the reinvestment share climbs
+toward 90%.
+
+**How likely, honestly.** As the *visible state of the world by 2046*: roughly
+**5%** — carved mostly out of C's tail plus the panel's "discontinuity" mass
+(fresh Fable put 10% on a discontinuity branch; Opus put 15–20% on an
+intelligence-explosion-by-2046; the panel's median says physical closure —
+robotics — lags too much for full runaway this soon). But the by-2046 number
+understates why it matters, for two reasons the graphs make plain. First,
+**through 2046, E is nearly indistinguishable from C** — same falling welfare,
+same dead leverage; the loop's takeover only becomes unmistakable in the
+2050s, *after* panel 4 has already gone to zero. You don't get a separate
+warning for E; the warning for C *is* the warning for E. Second, E is not a
+fifth sibling so much as **where C drains to if nothing stops it** —
+conditional on C persisting into the 2040s with leverage gone and reinvestment
+self-directed, the continuation into runaway over the following decades looks
+more likely than not, because every brake that could stop it is a brake C has
+already removed. (D is the one future that forecloses it; A and a managed B
+keep functioning brakes.)
+
+**You would expect to see:**
+
+- AI-sector capex growing as a share of GDP year after year *without* consumer
+  revenue catching up — investment demand becoming its own customer.
+- Machines-buying-from-machines: the share of intermediate transactions with
+  no human on either end climbing in input-output statistics.
+- Energy allocation contests (datacenters vs. households) consistently
+  resolved in favor of datacenters; long-term power contracts locked up by AI
+  firms decades ahead.
+- The first genuinely lights-out chip fab, robot factory, or automated mine —
+  physical closure's milestones.
+- AI firms' retained earnings swamping dividends; buybacks and reinvestment
+  with no consumption endpoint anywhere in the chain.
+- Legal autonomy creep: AI-operated entities holding assets, contracting with
+  each other, litigating — with the human principal increasingly hard to name.
+
+**What would kill this story:** binding compute/energy allocation rules that
+hold across jurisdictions (the loop is internationally mobile); robotics
+stalling (physical closure is the long pole — no closure, no runaway); or
+durable human claims on the loop's equity established early, which converts
+the loop's growth back into human income — A's move, made in time.
+
+---
+
+## How to use these five pictures
+
+The five futures *diverge from a common trunk*. Through ~2030, A, B, and C look almost identical from inside (and E hides inside C until the 2040s): growth up, labor share drifting down, transfers debated. The fork that matters is **panel 4** — whether durable, universal claims on AI income get locked in while ordinary people still have leverage. That's decided roughly 2028–2035, which is why it's also the highest-leverage period for both your personal hedging (convert income to assets while your wage is strong) and any political effort.
 
 So the watchlist compresses to four numbers, checkable once a year:
 1. **Labor share of GDP** — falling and *stabilizing* (A), falling steadily (B), falling fast (C), or flat (D)?
 2. **Entry-level white-collar hiring** vs corporate margins — the scissors opening is the B/C signature.
 3. **One legislative fact:** has any major economy passed a *universal* claim on AI profits that survived a change of government? Yes → A. Debated forever → B. Attempted and crushed → C.
 4. **The frontier gap:** can an agent do a week of unsupervised professional work? No, year after year → D.
+5. **The loop indicator:** AI-sector capex share of GDP vs. AI-sector consumer revenue. If capex keeps compounding while revenue from actual humans doesn't, the loop is starting to feed itself → C is curing into E.
 
-One honest caveat: all four graphs come from the same simple engine, tuned so its statistics match what 11 AI models collectively expect. That's a disciplined way to draw pictures of beliefs — it is not knowledge of the future. The probabilities are soft; the *shapes*, and the signposts that distinguish them, are the useful part.
+One honest caveat: all five graphs come from the same simple engine, tuned so its statistics match what 11 AI models collectively expect. That's a disciplined way to draw pictures of beliefs — it is not knowledge of the future. The probabilities are soft; the *shapes*, and the signposts that distinguish them, are the useful part.
