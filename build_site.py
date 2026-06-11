@@ -19,6 +19,8 @@ PAGES = [
     "OBJECTIONS.md",
     "AGING.md",
     "VIOLENCE.md",
+    "JOBS.md",
+    "SPECIALIZATION.md",
     "REPORT.md",
     "survey2/COMPARISON.md",
     "survey/question.md",
@@ -113,8 +115,9 @@ super-persuasion, and fifteen more — what each attacks and what survives.</p><
 
 <div class="card"><h3>Deep dives</h3>
 <p><a href="AGING.html">The demographic undertow</a> — aging meets automation.<br>
-<a href="VIOLENCE.html">The threat point</a> — how unrest is priced into the
-scenarios.</p></div>
+<a href="VIOLENCE.html">The threat point</a> — how unrest is priced in.<br>
+<a href="JOBS.html">Jobs in five futures</a> — what's common, what pays, what's stable.<br>
+<a href="SPECIALIZATION.html">Specialization</a> — choosing skills when you can't choose the future.</p></div>
 
 <div class="card"><h3><a href="survey2/COMPARISON.html">The debiased survey</a></h3>
 <p>11 models, neutral instrument, calibrated probability estimates — and a
