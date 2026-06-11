@@ -49,7 +49,7 @@ The order below runs from "least happens" to "most happens": no transformation, 
 
 ---
 
-## C. The squeeze — institutional lag (~35%, the most likely single path)
+## C. The velvet cage — the squeeze of institutional lag (~35%, the most likely single path)
 
 ![C](model/narrative_squeeze.png)
 
@@ -69,7 +69,7 @@ The order below runs from "least happens" to "most happens": no transformation, 
 
 ---
 
-## D. Feudalism — the rentier lock-in (~20–25%)
+## D. Techno-feudalism — the rentier lock-in (~20–25%)
 
 ![D](model/narrative_feudalism.png)
 
@@ -90,7 +90,7 @@ The order below runs from "least happens" to "most happens": no transformation, 
 
 ---
 
-## E. AI breakaway — the loop runs for itself (~5% by 2046, but read the fine print)
+## E. Machine takeover — the loop runs for itself (~5% by 2046, but read the fine print)
 
 ![E](model/narrative_breakaway.png)
 

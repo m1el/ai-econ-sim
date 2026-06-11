@@ -123,7 +123,7 @@ ax4.set_ylim(0, 1.05)
 ax4.set_title("4. Power: the brakes wear out before the speed peaks")
 ax4.legend(fontsize=8); ax4.grid(alpha=0.3)
 
-fig.suptitle("E. AI breakaway — the loop runs for itself", fontsize=14,
+fig.suptitle("E. Machine takeover — the loop runs for itself", fontsize=14,
              fontweight="bold")
 fig.tight_layout()
 fig.savefig("model/narrative_breakaway.png", dpi=520)

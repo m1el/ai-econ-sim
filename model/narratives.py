@@ -25,9 +25,9 @@ FILES = {
     "Managed abundance (panel ~25%)": ("narrative_prosperity.png",
                                        "B. FALGSC — fully automated luxury gay space communism"),
     "Institutional lag (panel ~35%)": ("narrative_squeeze.png",
-                                       "C. The squeeze — institutional lag (most likely)"),
+                                       "C. The velvet cage — the squeeze of institutional lag (most likely)"),
     "Neo-feudal rentier (panel ~25%)": ("narrative_feudalism.png",
-                                        "D. Feudalism — the rentier lock-in"),
+                                        "D. Techno-feudalism — the rentier lock-in"),
 }
 
 for name, (fname, title) in FILES.items():
