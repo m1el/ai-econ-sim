@@ -23,7 +23,7 @@ FILES = {
     "Plateau & demographic drag (panel ~15%)": ("narrative_plateau.png",
                                                 "A. Nothing ever happens — plateau & demographic drag"),
     "Managed abundance (panel ~25%)": ("narrative_prosperity.png",
-                                       "B. Prosperity for all — managed abundance"),
+                                       "B. FALGSC — fully automated luxury gay space communism"),
     "Institutional lag (panel ~35%)": ("narrative_squeeze.png",
                                        "C. The squeeze — institutional lag (most likely)"),
     "Neo-feudal rentier (panel ~25%)": ("narrative_feudalism.png",

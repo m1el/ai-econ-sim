@@ -29,7 +29,7 @@ The order below runs from "least happens" to "most happens": no transformation, 
 
 ---
 
-## B. Prosperity for all — managed abundance (~25%)
+## B. FALGSC — fully automated luxury gay space communism (~25%)
 
 ![B](model/narrative_prosperity.png)
 
