@@ -16,6 +16,7 @@ SITE = ROOT / "site"
 
 PAGES = [
     "NARRATIVES.md",
+    "OBJECTIONS.md",
     "REPORT.md",
     "survey2/COMPARISON.md",
     "survey/question.md",
@@ -78,6 +79,7 @@ TEMPLATE = """<!doctype html>
 <nav class="top"><div>
 <a href="{rel}index.html">Home</a>
 <a href="{rel}NARRATIVES.html">Narratives</a>
+<a href="{rel}OBJECTIONS.html">Objections</a>
 <a href="{rel}REPORT.html">Report</a>
 <a href="{rel}survey2/COMPARISON.html">Debiased survey</a>
 <a href="https://github.com/m1el/ai-econ-sim">Source</a>
@@ -102,6 +104,10 @@ panel's collective forecasts.</p>
 <div class="card"><h3><a href="NARRATIVES.html">Five futures</a></h3>
 <p>The main deliverable: five futures with graphs and the observable
 signposts that tell you which path you're on.</p></div>
+
+<div class="card"><h3><a href="OBJECTIONS.html">Objections &amp; fears</a></h3>
+<p>The holes people poke in every comfortable story: the breakaway economy,
+super-persuasion, and fifteen more — what each attacks and what survives.</p></div>
 
 <div class="card"><h3><a href="survey2/COMPARISON.html">The debiased survey</a></h3>
 <p>11 models, neutral instrument, calibrated probability estimates — and a
