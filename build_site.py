@@ -119,8 +119,8 @@ political feedback, calibrated to the panel. <code>uv run</code> it.</p></div>
 <h2>The single most useful picture</h2>
 <p>The most likely path (~35%): the economy more than triples while the median
 person's welfare crawls. Watch the gap between the gray and green lines.</p>
-<p><a href="NARRATIVES.html"><img src="model/narrative_B_institutional_lag.png"
-alt="Institutional lag scenario"></a></p>
+<p><a href="NARRATIVES.html"><img src="model/narrative_squeeze.png"
+alt="The squeeze scenario"></a></p>
 
 <h2>Raw survey responses</h2>
 <p>Survey 2 (neutral): {s2_links}</p>

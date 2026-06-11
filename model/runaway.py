@@ -21,7 +21,7 @@ Humans are never attacked. They are outbid: the loop's resource demand prices
 energy and land, which degrades both median cost of living and the
 parallel-economy floor. Total output explodes while the human slice shrinks.
 
-Run: uv run model/runaway.py   -> model/narrative_E_runaway.png
+Run: uv run model/runaway.py   -> model/narrative_breakaway.png
 """
 import numpy as np
 import matplotlib
@@ -123,11 +123,11 @@ ax4.set_ylim(0, 1.05)
 ax4.set_title("4. Power: the brakes wear out before the speed peaks")
 ax4.legend(fontsize=8); ax4.grid(alpha=0.3)
 
-fig.suptitle("E. The runaway loop — automation serving itself", fontsize=14,
+fig.suptitle("E. AI breakaway — the loop runs for itself", fontsize=14,
              fontweight="bold")
 fig.tight_layout()
-fig.savefig("model/narrative_E_runaway.png", dpi=520)
-print("wrote model/narrative_E_runaway.png")
+fig.savefig("model/narrative_breakaway.png", dpi=520)
+print("wrote model/narrative_breakaway.png")
 print(f"2046: A={A[20]:.2f} s_ai={s_ai[20]:.2f} K={K[20]:.0f} "
       f"welfare={welfare[20]:.2f} res={res_price[20]:.1f}x L={L[20]:.2f} "
       f"humanShare={human_share_econ[20]:.2f}")

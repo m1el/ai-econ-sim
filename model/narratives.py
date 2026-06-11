@@ -20,14 +20,14 @@ import matplotlib.pyplot as plt
 from simulate_v2 import NAMED, YEARS, simulate
 
 FILES = {
-    "Managed abundance (panel ~25%)": ("narrative_A_managed_abundance.png",
-                                       "A. Managed abundance — growth gets shared"),
-    "Institutional lag (panel ~35%)": ("narrative_B_institutional_lag.png",
-                                       "B. Institutional lag — the squeeze (most likely)"),
-    "Neo-feudal rentier (panel ~25%)": ("narrative_C_neofeudal.png",
-                                        "C. Neo-feudal rentier — concentration wins"),
-    "Plateau & demographic drag (panel ~15%)": ("narrative_D_plateau.png",
-                                                "D. Plateau — the dog that didn't bark"),
+    "Plateau & demographic drag (panel ~15%)": ("narrative_plateau.png",
+                                                "A. Nothing ever happens — plateau & demographic drag"),
+    "Managed abundance (panel ~25%)": ("narrative_prosperity.png",
+                                       "B. Prosperity for all — managed abundance"),
+    "Institutional lag (panel ~35%)": ("narrative_squeeze.png",
+                                       "C. The squeeze — institutional lag (most likely)"),
+    "Neo-feudal rentier (panel ~25%)": ("narrative_feudalism.png",
+                                        "D. Feudalism — the rentier lock-in"),
 }
 
 for name, (fname, title) in FILES.items():
