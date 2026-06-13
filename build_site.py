@@ -84,6 +84,7 @@ TEMPLATE = """<!doctype html>
 <a href="{rel}index.html">Home</a>
 <a href="{rel}NARRATIVES.html">Narratives</a>
 <a href="{rel}OBJECTIONS.html">Objections</a>
+<a href="{rel}slides.html">Slides</a>
 <a href="{rel}REPORT.html">Report</a>
 <a href="{rel}survey2/COMPARISON.html">Debiased survey</a>
 <a href="https://github.com/m1el/ai-econ-sim">Source</a>
@@ -112,6 +113,10 @@ signposts that tell you which path you're on.</p></div>
 <div class="card"><h3><a href="OBJECTIONS.html">Objections &amp; fears</a></h3>
 <p>The holes people poke in every comfortable story: the breakaway economy,
 super-persuasion, and fifteen more — what each attacks and what survives.</p></div>
+
+<div class="card"><h3><a href="slides.html">The presentation</a></h3>
+<p>Narratives, objections, and jobs condensed into a slide deck —
+arrow keys or swipe to navigate.</p></div>
 
 <div class="card"><h3>Deep dives</h3>
 <p><a href="AGING.html">The demographic undertow</a> — aging meets automation.<br>
@@ -177,6 +182,8 @@ def main():
         shutil.rmtree(SITE)
     SITE.mkdir()
     (SITE / "style.css").write_text(CSS)
+
+    shutil.copy(ROOT / "slides.html", SITE / "slides.html")
 
     # images referenced by the pages
     (SITE / "model").mkdir()

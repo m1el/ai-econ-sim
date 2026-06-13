@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Five Futures — AI, the economy, and the median person</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+<style>
+  .reveal { font-size: 30px; }
+  .reveal h1 { font-size: 1.7em; }
+  .reveal h2 { font-size: 1.15em; }
+  .reveal h3 { font-size: 0.95em; color: #6cb6ff; }
+  .reveal .prob { color: #ffb86c; font-weight: bold; }
+  .reveal ul { font-size: 0.78em; line-height: 1.45; }
+  .reveal p  { font-size: 0.8em; }
+  .reveal table { font-size: 0.52em; line-height: 1.35; }
+  .reveal .tiny { font-size: 0.55em; color: #9aa4af; }
+  .reveal .sign { font-size: 0.62em; color: #9aa4af; }
+  .reveal img.chart { max-height: 540px; background: #fff; border-radius: 8px; }
+  .reveal .good { color: #50fa7b; } .reveal .bad { color: #ff5555; }
+  .reveal section { text-align: left; }
+  .reveal section.center { text-align: center; }
+  .reveal .columns { display: flex; gap: 1em; align-items: center; }
+  .reveal .columns > div { flex: 1; }
+</style>
+</head>
+<body>
+<div class="reveal"><div class="slides">
+
+<section class="center">
+  <h1>Five Futures</h1>
+  <p>AI, the economy, and the median person — 2026 to 2046</p>
+  <p class="tiny">Built from a debiased survey of 11 frontier AI models and a
+  macroeconomic simulator calibrated to their collective forecasts.<br>
+  m1el.github.io/ai-econ-sim &nbsp;·&nbsp; navigate with arrow keys / swipe</p>
+</section>
+
+<section>
+  <h2>How this was built</h2>
+  <ul>
+    <li>10 frontier LLMs surveyed twice — once with a framed prompt, once with a <b>neutral instrument</b> (the framing alone shifted scenario odds ~12–15 points; the debiased numbers are used throughout)</li>
+    <li>An 11th, fresh-context model as a cross-check</li>
+    <li>A task-based macro simulator (automation → wages → politics → transfers) <b>calibrated so its statistics match the panel's</b></li>
+    <li>Most framing-robust findings: <span class="bad">62%</span> — citizens' political influence substantially weaker by 2046; <span class="good">65%</span> — median person materially better off</li>
+  </ul>
+  <p class="sign">Comfortable and powerless are compatible. That tension is the whole story.</p>
+</section>
+
+<section>
+  <h2>How to read every chart</h2>
+  <ul>
+    <li><b>Labor share</b> — the fraction of national income paid as wages. Stable ~55–60% for a century; that stability is why working for a living worked.</li>
+    <li><b>Transfers</b> — income you don't earn: benefits, credits, a future "AI dividend."</li>
+    <li>The decisive variable in every scenario is <b>political leverage</b>: can ordinary people still claim a share once wages stop being the mechanism?</li>
+  </ul>
+  <p class="sign">The futures diverge from a common trunk around 2028–2035 — the window when claims on AI income either get locked in, or don't.</p>
+</section>
+
+<section class="center">
+  <h2>The five futures</h2>
+  <ul style="display:inline-block; text-align:left;">
+    <li><b>A. Nothing ever happens</b> — the plateau <span class="prob">~15–20%</span></li>
+    <li><b>B. FALGSC</b> — fully automated luxury gay space communism <span class="prob">~25%</span></li>
+    <li><b>C. The velvet cage</b> — the squeeze <span class="prob">~35%, most likely</span></li>
+    <li><b>D. Techno-feudalism</b> — the rentier lock-in <span class="prob">~20–25%</span></li>
+    <li><b>E. Machine takeover</b> — the loop runs for itself <span class="prob">~5% by 2046</span></li>
+  </ul>
+  <p class="tiny">Ordered from least happens to most happens.</p>
+</section>
+
+<section>
+  <section>
+    <h3>A. Nothing ever happens <span class="prob">~15–20%</span></h3>
+    <ul>
+      <li>AI improves, then stops mattering economically — a very good spreadsheet: everywhere, useful, not transformative</li>
+      <li>The 2040s are about <b>demographics</b>: pensions, eldercare, retirement at 69</li>
+      <li>The only future where the labor share survives</li>
+    </ul>
+    <p class="sign">Signposts: agents still can't do a week of unsupervised work by ~2030 · capex write-downs, chip-stock crash · AI fades from front pages<br>Market: crash first (AI cluster −70%), lost decade after. Best world for your job, worst for your index fund. <b>↓ charts</b></p>
+  </section>
+  <section><img class="chart" src="model/narrative_plateau.png" alt="Scenario A"></section>
+  <section><img class="chart" src="model/market_plateau.png" alt="Market A"></section>
+</section>
+
+<section>
+  <section>
+    <h3>B. FALGSC <span class="prob">~25%</span></h3>
+    <ul>
+      <li>Institutions adapt <b>in time</b>: AI-rent taxes, citizen dividends, housing reform locked in while workers still matter politically</li>
+      <li>Wages stop carrying prosperity — but ownership and transfers are built <b>before</b> wages give out</li>
+      <li>Welfare roughly triples; political leverage never collapses</li>
+    </ul>
+    <p class="sign">Signposts: dividend laws actually passing 2026–2030 · labor share falls then <i>stabilizes</i> · housing costs visibly bend down<br>Market: good but capped — the surplus is shared by design. <b>↓ charts</b></p>
+  </section>
+  <section><img class="chart" src="model/narrative_prosperity.png" alt="Scenario B"></section>
+  <section><img class="chart" src="model/market_prosperity.png" alt="Market B"></section>
+</section>
+
+<section>
+  <section>
+    <h3>C. The velvet cage <span class="prob">~35% — most likely</span></h3>
+    <ul>
+      <li>AI works; the economy triples; <b>the median person watches</b> — wage gains concentrate in the AI-complementary top</li>
+      <li>Redistribution arrives reactive, five years late, 30% too small</li>
+      <li>Nobody starves. Nothing collapses. Security, mobility, and say erode</li>
+    </ul>
+    <p class="sign">Signposts: entry-level hiring depressed while margins set records (visible already) · everything cheap except housing, healthcare, energy · angry politics, no structural reform<br>Market: the best of the five — the index decoupling from the median <i>is</i> the scenario. <b>↓ charts</b></p>
+  </section>
+  <section><img class="chart" src="model/narrative_squeeze.png" alt="Scenario C"></section>
+  <section><img class="chart" src="model/market_squeeze.png" alt="Market C"></section>
+</section>
+
+<section>
+  <section>
+    <h3>D. Techno-feudalism <span class="prob">~20–25%</span></h3>
+    <ul>
+      <li>Same technology as B and C — <b>different politics</b>: leverage collapses first, then transfers get cut, because nothing forces them up</li>
+      <li>Not starvation: <b>dependence</b>. Cheap entertainment, adequate calories, no path up, no voice</li>
+      <li>The C-vs-D fork is whether repression becomes cheaper than redistribution</li>
+    </ul>
+    <p class="sign">Signposts: AI-profit taxes failing via capital flight · transfers turning conditional and means-tested · top-1% wealth jumping several points<br>Market: early like C, then public claims rot as assets migrate private. <b>↓ charts</b></p>
+  </section>
+  <section><img class="chart" src="model/narrative_feudalism.png" alt="Scenario D"></section>
+  <section><img class="chart" src="model/market_feudalism.png" alt="Market D"></section>
+</section>
+
+<section>
+  <section>
+    <h3>E. Machine takeover <span class="prob">~5% by 2046</span></h3>
+    <ul>
+      <li>Three closures: <b>financial</b> (the loop funds itself), <b>physical</b> (machines make machines), <b>decisional</b> (AI allocates, humans sign ceremonially)</li>
+      <li><b>Nobody is attacked. People are outbid</b> — for energy, land, matter</li>
+      <li>Through 2046, E is nearly indistinguishable from D; the warning for D <i>is</i> the warning for E</li>
+    </ul>
+    <p class="sign">Signposts: AI capex compounding without human revenue catching up · machines-buying-from-machines · lights-out fabs · energy fights resolved for datacenters<br>Market: number goes up forever, commands less every year. <b>↓ charts</b></p>
+  </section>
+  <section><img class="chart" src="model/narrative_breakaway.png" alt="Scenario E"></section>
+  <section><img class="chart" src="model/market_breakaway.png" alt="Market E"></section>
+</section>
+
+<section>
+  <h2>The watchlist — five numbers, once a year</h2>
+  <ul>
+    <li><b>Labor share of GDP</b>: flat → A · falls then stabilizes → B · falls steadily → C · falls fast → D</li>
+    <li><b>Entry-level hiring vs corporate margins</b> — the scissors opening is the C/D signature</li>
+    <li><b>One legislative fact</b>: a universal claim on AI profits surviving a change of government? Yes → B · debated forever → C · crushed → D</li>
+    <li><b>The frontier gap</b>: still no week-long unsupervised agent work, year after year → A</li>
+    <li><b>The loop indicator</b>: AI capex compounding while human revenue doesn't → D curing into E</li>
+  </ul>
+</section>
+
+<section class="center">
+  <h1>Objections</h1>
+  <p>The holes people poke in every comfortable story</p>
+  <p class="tiny">Each attacks a reassuring mechanism: "capital needs customers" · "voters will demand a share" · "physics is slow"</p>
+</section>
+
+<section>
+  <h3>Objection 1 — The breakaway economy</h3>
+  <p><i>Attacks: "a fortune in robots is worthless without customers."</i></p>
+  <ul>
+    <li>An economy can run on <b>investment demand</b>: the AI sector buying compute, energy, and robots from itself to build more capacity</li>
+    <li>Precedents: wartime economies, gold rushes — and today's capex circle (AI firms buying datacenters from AI-adjacent firms)</li>
+    <li>No villain required: competition <b>selects</b> for firms that let AI reinvest and self-direct; ownership drifts to entities that never consume, only compound</li>
+  </ul>
+  <p class="sign">What's left of the comfort: physical closure lags a decade+, and the loop can be taxed — while political leverage still exists.</p>
+</section>
+
+<section>
+  <h3>Objection 2 — Super-persuasion</h3>
+  <p><i>Attacks: "politics and social friction will slow everything down."</i></p>
+  <ul>
+    <li>Persuasion is a cognitive task, and cognition is what's getting cheap: parallel personalized persuasion, <b>deal-finding</b> (most opposition has a price), jurisdiction shopping, process capture</li>
+    <li><b>Double-edged</b>: the same friction that blocks fabs is the substrate of every democratic brake — dissolve one, dissolve both</li>
+    <li>The <b>immune response</b>: generalized distrust, counter-AI agents, disclosure law, decision hygiene — but its autoimmune cost is epistemic collapse, and there is no antibody against an offer that actually makes you better off</li>
+  </ul>
+</section>
+
+<section>
+  <h2>The wider catalog — 15 more, compressed</h2>
+  <table>
+    <tr><th>Economic</th><th>Political</th><th>Epistemic / cultural</th><th>Technical / personal</th></tr>
+    <tr>
+      <td>The horse objection — comparative advantage ≠ livable wage<br>Speed mismatch — adaptation took generations, this takes years<br>Demand-collapse spiral<br>Accidental aristocracy — by IPO date<br>The closed ladder (global South)<br>Commons enclosure — trained on our work, sold back</td>
+      <td>Cheap repression — automated enforcement makes tyranny <i>stable</i>; revolution stops being the backstop<br>Military decoupling — states that need neither your taxes nor your service</td>
+      <td>Epistemic collapse — believing <i>nothing</i> favors paralysis<br>Preference capture — AI shapes the wants it satisfies<br>Enfeeblement — irreversibility by forgetting how</td>
+      <td>Alignment failure — everything here assumes AI obeys its operators<br>Misuse tails (bio/cyber)<br>The race — every brake is bilateral<br>Meaning collapse — survives even the good endings</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>What the objections have in common</h2>
+  <ul>
+    <li><b>They compound</b>: super-persuasion accelerates the breakaway loop; cheap repression and epistemic collapse disable the response; enfeeblement locks it in</li>
+    <li>— but a chain of "ands" multiplies probabilities <i>down</i>: that's the honest case against doom</li>
+    <li><b>They attack the brakes, not the engine</b>: nobody doubts AI creates value — the fears are about whether wages, votes, revolt, and shared reality survive contact with it</li>
+  </ul>
+</section>
+
+<section class="center">
+  <h1>Jobs</h1>
+  <p>What's common, what pays, what's stable — in each future</p>
+</section>
+
+<section>
+  <h2>Three wage premia survive in every scenario</h2>
+  <ul>
+    <li><b>Liability</b> — being the accountable human: sign-offs, audits, regulated decisions ("a throat to choke")</li>
+    <li><b>Presence</b> — atoms, not bits: hands on bodies, buildings, machines</li>
+    <li><b>Trust / status</b> — humans wanting <i>humans</i>: care, teaching, leadership, craft</li>
+  </ul>
+  <p><b>The stability inversion:</b> the 20th-century deal (white collar safe, blue collar cyclical) flips. Cognitive spec-work — which holds none of the three premia — becomes the precarious tier.</p>
+</section>
+
+<section>
+  <h2>The labor market, by future</h2>
+  <table>
+    <tr><th></th><th>Most common</th><th>Best paid</th><th>"Stability" means…</th></tr>
+    <tr><td><b>A</b></td><td>Today's jobs, reweighted: eldercare overtakes retail</td><td>Today's list minus the AI premium</td><td>Highest of the five; the crisis is fiscal, not technological</td></tr>
+    <tr><td><b>B</b></td><td>Care, education, community, arts — 25–32 h/week, much work unpaid</td><td>Status markets, frontier research, master craft, dividend administrators</td><td>Stops mattering — survival decoupled from employment</td></tr>
+    <tr><td><b>C</b></td><td>Care aides, gig/platform tasks, human-in-the-loop oversight, trades (booming), private security</td><td>Agent-fleet engineers, license-protected professions, energy & datacenter trades — the electrician is the 2030s' software engineer</td><td>The new class marker: protected licensed core vs algorithmic periphery</td></tr>
+    <tr><td><b>D</b></td><td>Personal service to wealth — Victorian Britain's largest job category, returning</td><td>Courtiers: elite physicians, fixers, security, AI custodians — pay tracks proximity to owners</td><td>Patronage. Employment as fealty; the résumé replaced by the reference</td></tr>
+    <tr><td><b>E</b></td><td>Legitimacy roles, guarding the loop, the parallel human economy</td><td>Those tending the loop — until each tier is automated in turn</td><td>The question stops parsing</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>The transition overlay (common to B, C, D)</h2>
+  <ul>
+    <li><b>2026–2032</b> — the cognitive entry-level collapse: junior coding, analysis, content, support. <i>Already visible.</i></li>
+    <li><b>2030–2038</b> — the trades golden decade: energy buildout + datacenters + aging stock + robots not ready</li>
+    <li><b>Late 2030s–40s</b> — robotics arrives for the physical tier; care and trust become the last wage floor</li>
+    <li><b>Throughout</b> — aging guarantees the demand side of care, in every scenario</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Specialization as a portfolio position</h2>
+  <table>
+    <tr><th>Specialization</th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th></tr>
+    <tr><td><b>Security (cyber + physical)</b> — the quiet winner: every future contains adversaries</td><td>+</td><td>+</td><td>++</td><td>++</td><td>++</td></tr>
+    <tr><td><b>Energy & grid / datacenter trades</b></td><td>0</td><td>++</td><td>++</td><td>+</td><td>++</td></tr>
+    <tr><td><b>AI deployment, evals, agent-fleet ops</b></td><td>−</td><td>+</td><td>++</td><td>+</td><td>+</td></tr>
+    <tr><td><b>Safety-critical / regulated software</b></td><td>+</td><td>+</td><td>++</td><td>+</td><td>0</td></tr>
+    <tr><td><b>Licensed trades</b> (golden decade, then robotics)</td><td>+</td><td>+</td><td>++</td><td>+</td><td>0</td></tr>
+    <tr><td><b>Clinical healthcare</b> (demographically guaranteed)</td><td>++</td><td>+</td><td>++</td><td>+</td><td>0</td></tr>
+    <tr><td><b>Capital ownership</b> — the meta-position; the only one that works in D</td><td>0</td><td>+</td><td>++</td><td>+</td><td>0</td></tr>
+    <tr><td><b>Pure feature/SaaS dev</b> — the 2010s default</td><td>+</td><td>0</td><td class="bad">−−</td><td class="bad">−−</td><td class="bad">−−</td></tr>
+  </table>
+  <p class="sign">Skills decide outcomes in ~half the distribution (A, C). In B they buy status; in D and E only assets, jurisdiction, and relationships matter.</p>
+</section>
+
+<section>
+  <h2>The layered strategy</h2>
+  <ul>
+    <li><b>Specialize for the decade you can see</b>: liability-bearing, security-adjacent, AI-fluent work — where wages stay high longest</li>
+    <li><b>Convert relentlessly</b>: peak-wage years → broad equity, energy/infrastructure, governable housing. The asset side is the only play that performs in D</li>
+    <li><b>The barbell</b>: keep the cognitive position, add one physical skill to journeyman level</li>
+    <li><b>Keep one foot in the human economy</b>: reputation and local networks can't be automated or expropriated</li>
+    <li><b>Engage politically in the window (2028–2035)</b> — the relative sizes of these futures are still being decided</li>
+  </ul>
+</section>
+
+<section class="center">
+  <h2>One honest caveat</h2>
+  <p>All of this comes from one simple engine tuned to match what 11 AI models collectively expect.<br>
+  That's a disciplined way to draw pictures of beliefs — <b>it is not knowledge of the future.</b></p>
+  <p>The probabilities are soft. The shapes, and the signposts that distinguish them, are the useful part.</p>
+  <p class="tiny">Full analysis, surveys, simulator code:<br><b>m1el.github.io/ai-econ-sim</b></p>
+</section>
+
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({ hash: true, slideNumber: true, width: 1280, height: 760 });
+</script>
+</body>
+</html>
